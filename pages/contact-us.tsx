@@ -733,7 +733,6 @@ const Contactus = () => {
                         </div>
                         <form
                             name="contact"
-                            action=""
                             method="POST"
                             data-netlify="true"
                             className="rounded-3xl bg-white px-4 py-12 dark:bg-gray-dark lg:w-2/3 lg:px-8"

@@ -173,7 +173,7 @@ const Header = (props: any) => {
                                     className={`${showSearch ? '!w-full' : ''}
                   search-bar absolute hidden w-0 overflow-hidden bg-black transition-all duration-500 ltr:right-0 rtl:left-0 lg:block`}
                                 >
-                                    <form action="" className="relative">
+                                    <form name="search" data-netlify="true" className="relative">
                                         <input
                                             type="text"
                                             placeholder="Search"

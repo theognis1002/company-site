@@ -1147,7 +1147,9 @@ const Aboutus = () => {
                             Enter your email address to register to our newsletter subscription delivered on a regular basis!
                         </p>
                         <form
-                            action=""
+                            name="about-us"
+                            method="POST"
+                            data-netlify="true"
                             className="relative z-[1] pt-[50px] text-center ltr:xl:text-left rtl:xl:text-right"
                             data-aos="fade-up"
                             data-aos-duration="1000"
