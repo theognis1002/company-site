@@ -12,7 +12,7 @@ const Aboutus = () => {
     return (
         <div>
             <Head>
-                <title>About Us | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>About Us | Arclite Technologies</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
@@ -20,7 +20,7 @@ const Aboutus = () => {
                         <div className="items-center justify-between py-10 md:flex md:h-[400px] md:py-0">
                             <div className="heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
                                 <h6>About Us</h6>
-                                <h4 className="!text-white">About Plurk Technologies</h4>
+                                <h4 className="!text-white">About Arclite Technologies</h4>
                             </div>
                             <div className="relative mt-6 md:mt-0" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
                                 <svg
@@ -715,7 +715,7 @@ const Aboutus = () => {
                 </div>
             </section>
 
-            <section className="py-14 lg:py-[100px]">
+            {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h6>Growth</h6>
@@ -760,8 +760,8 @@ const Aboutus = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-
+            </section> */}
+            {/* 
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center lg:w-2/3 ltr:lg:text-left rtl:lg:text-right">
@@ -815,9 +815,9 @@ const Aboutus = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <section className="py-14 lg:py-[100px]">
+            {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
                         <h6>Meet Our Team</h6>
@@ -862,11 +862,11 @@ const Aboutus = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <BlogSlider title1="Blog" title2="Unlock the latest trends/news" />
 
-            <Testimonial />
+            {/* <Testimonial /> */}
 
             <section className="relative overflow-x-hidden border-t-2 border-transparent py-14 dark:border-gray/20 lg:py-[100px]">
                 <div className="container">

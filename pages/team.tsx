@@ -10,7 +10,7 @@ const Team = () => {
     return (
         <div>
             <Head>
-                <title>Team | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Team | Arclite Technologies</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">

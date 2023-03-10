@@ -11,7 +11,7 @@ const Portfolio = () => {
     return (
         <div>
             <Head>
-                <title>Portfolio | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Portfolio | Arclite Technologies</title>
             </Head>
             <div>
                 <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">

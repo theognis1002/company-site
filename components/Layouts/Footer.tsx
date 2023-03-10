@@ -86,11 +86,6 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/portfolio" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                        Portfolio
-                                    </Link>
-                                </li>
-                                <li>
                                     <Link href="/services" className="inline-block transition hover:scale-110 hover:text-secondary">
                                         Service
                                     </Link>
@@ -117,7 +112,7 @@ const Footer = () => {
                                 <li className="mb-3 text-lg font-extrabold text-black dark:text-white">Services</li>
                                 <li>
                                     <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                        UI/UX Design
+                                        App Development
                                     </Link>
                                 </li>
                                 <li>
@@ -127,12 +122,12 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                        Digital Marketing
+                                        Data Analytics
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                        App Development
+                                        UI/UX Design
                                     </Link>
                                 </li>
                             </ul>
@@ -165,11 +160,11 @@ const Footer = () => {
                         <div>
                             <ul className="flex flex-col gap-3 font-bold">
                                 <li className="mb-3 text-lg font-extrabold text-black dark:text-white">Information</li>
-                                <li>164 Brighton Ave, Allston, Maine, U.S. - 02134</li>
+                                <li>Washington, D.C., USA</li>
                                 <li>
-                                    <a href="tel:+(617) 254-2333" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                        +(617) 254-2333
-                                    </a>
+                                    {/* <a href="tel:+(555) 555-5555" className="inline-block transition hover:scale-110 hover:text-secondary">
+                                        +(555) 555-5555
+                                    </a> */}
                                 </li>
                             </ul>
                         </div>
@@ -180,9 +175,9 @@ const Footer = () => {
                 <div className="container">
                     <div className="items-center justify-between text-center font-bold dark:text-white md:flex">
                         <div>
-                            Copyright© { new Date().getFullYear() + ' ' }
+                            Copyright© {new Date().getFullYear() + ' '}
                             <Link href="/" className="text-primary transition hover:text-secondary">
-                                Plurk Technologies Pvt. Ltd.
+                                Arclite Technologies, L.L.C.
                             </Link>
                         </div>
                         <div>

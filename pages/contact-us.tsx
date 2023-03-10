@@ -11,7 +11,7 @@ const Contactus = () => {
     return (
         <div>
             <Head>
-                <title>Contact Us | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Contact Us | Arclite Technologies</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
@@ -731,12 +731,7 @@ const Contactus = () => {
                                 </li>
                             </ul>
                         </div>
-                        <form
-                            name="contact"
-                            method="POST"
-                            data-netlify="true"
-                            className="rounded-3xl bg-white px-4 py-12 dark:bg-gray-dark lg:w-2/3 lg:px-8"
-                        >
+                        <form name="contact" method="POST" data-netlify="true" className="rounded-3xl bg-white px-4 py-12 dark:bg-gray-dark lg:w-2/3 lg:px-8">
                             <div className="grid gap-10 sm:grid-cols-2">
                                 <div className="relative">
                                     <input

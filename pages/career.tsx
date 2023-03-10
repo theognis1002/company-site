@@ -28,7 +28,7 @@ const Career = () => {
     return (
         <div>
             <Head>
-                <title>Career | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Career | Arclite Technologies</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
@@ -37,7 +37,7 @@ const Career = () => {
                             <div className="heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
                                 <h6>Career</h6>
                                 <h4 className="!text-white">
-                                    Join our team at <span className="text-primary">Plurk</span>
+                                    Join our team at <span className="text-primary">Arclite Technologies</span>
                                 </h4>
                             </div>
                             <div className="relative mt-6 md:mt-0" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
@@ -382,14 +382,15 @@ const Career = () => {
                         <div className="order-2 md:order-1 md:col-span-2 lg:col-auto">
                             <div className="heading mb-5 text-center ltr:md:text-left rtl:md:text-right">
                                 <h6>Careers</h6>
-                                <h4>Join the #1 Creative Agency</h4>
+                                <h4>Join the Team</h4>
                             </div>
                             <div className="text-center font-semibold ltr:md:text-left rtl:md:text-right">
-                                <p className="pb-5">Find out everything you need to know and more about how we create our business process models.</p>
+                                <p className="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptatibus modi voluptates!</p>
                                 <p>
-                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                                    here, content here', making it look like readable English.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quas dignissimos odio non assumenda molestias velit, cumque
+                                    consequuntur repellat officia sapiente error necessitatibus, perferendis laborum quae sed! Libero quibusdam reprehenderit
+                                    excepturi debitis fuga, placeat quidem odit explicabo voluptatibus ipsa consequatur atque. Nemo tempore obcaecati
+                                    exercitationem?
                                 </p>
                                 <Link href="/career#open-position" className="btn mt-10 capitalize text-white">
                                     Open Positions
@@ -407,7 +408,7 @@ const Career = () => {
                 </div>
             </section>
 
-            <section className="bg-gradient-to-t from-white/[54%] to-transparent py-14 dark:bg-none lg:py-[100px]">
+            {/* <section className="bg-gradient-to-t from-white/[54%] to-transparent py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
                         <h6>Our Culture</h6>
@@ -509,13 +510,13 @@ const Career = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="bg-gradient-to-t from-white/[54%] to-transparent py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
                         <h6>Our Amazing Perks</h6>
-                        <h4>Great benefits of working at Plurk</h4>
+                        <h4>Great benefits of working at Arclite Technologies</h4>
                     </div>
                     <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
                         <div data-aos="fade-up" data-aos-duration="1000">
@@ -806,7 +807,7 @@ const Career = () => {
                                     onClick={() => setActiveTab('marketing')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    Digital Marketing
+                                    Data Analytics
                                 </button>
                             </li>
                         </ul>
@@ -1020,7 +1021,7 @@ const Career = () => {
                 </div>
             </section>
 
-            <section className="py-14 lg:py-[100px]">
+            {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
                         <h6>Meet Our Team</h6>
@@ -1101,9 +1102,9 @@ const Career = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <OfficeSwiper />
+            {/* <OfficeSwiper /> */}
 
             <Contactus />
         </div>

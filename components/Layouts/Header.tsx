@@ -55,7 +55,7 @@ const Header = (props: any) => {
                                         Home
                                     </Link>
                                 </li>
-                                <li className="group relative" onClick={(e) => e.stopPropagation()}>
+                                {/* <li className="group relative" onClick={(e) => e.stopPropagation()}>
                                     <Link
                                         href="#"
                                         className={
@@ -135,7 +135,7 @@ const Header = (props: any) => {
                                     >
                                         Portfolio
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link
                                         href="/services"
@@ -144,11 +144,11 @@ const Header = (props: any) => {
                                         Service
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/team" className={router.pathname === '/team' ? 'active' : ''}>
                                         Team
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
                                         About Us

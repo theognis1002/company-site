@@ -18,10 +18,7 @@ const OfficeSwiper = () => {
                         <h4>Come to visit our offices throughout the globe</h4>
                     </div>
                     <div className="flex items-center justify-end gap-4">
-                        <Link
-                            href="#"
-                            className="text-sm font-extrabold text-black transition hover:text-secondary dark:text-white dark:hover:text-secondary"
-                        >
+                        <Link href="#" className="text-sm font-extrabold text-black transition hover:text-secondary dark:text-white dark:hover:text-secondary">
                             View All
                         </Link>
                         <button
@@ -143,8 +140,8 @@ const OfficeSwiper = () => {
                                                         />
                                                     </svg>
                                                 </div>
-                                                <a href="mailto:info@plurk.com" className="text-sm font-bold hover:text-secondary sm:text-lg">
-                                                    info@plurk.com
+                                                <a href="mailto:admin@ticketbrokerlist.com" className="text-sm font-bold hover:text-secondary sm:text-lg">
+                                                    admin@ticketbrokerlist.com
                                                 </a>
                                             </li>
                                         </ul>
@@ -213,8 +210,8 @@ const OfficeSwiper = () => {
                                                         />
                                                     </svg>
                                                 </div>
-                                                <a href="mailto:info@plurk.com" className="text-sm font-bold hover:text-secondary sm:text-lg">
-                                                    info@plurk.com
+                                                <a href="mailto:admin@ticketbrokerlist.com" className="text-sm font-bold hover:text-secondary sm:text-lg">
+                                                    admin@ticketbrokerlist.com
                                                 </a>
                                             </li>
                                         </ul>

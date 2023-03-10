@@ -86,7 +86,7 @@ const ModernSaas = () => {
     return (
         <div>
             <Head>
-                <title>Real Estate | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Real Estate | Arclite Technologies</title>
             </Head>
             <div className="overflow-x-hidden">
                 <section className="bg-black bg-[url(/assets/images/modern-saas/banner-bg.png)] bg-cover bg-top bg-no-repeat pt-[82px] lg:pt-[106px]">
@@ -135,7 +135,7 @@ const ModernSaas = () => {
                                     <span className="text-primary">growth reimagined</span>
                                 </h2>
                                 <p className="my-8 text-lg lg:w-3/4">
-                                    Plurk is fully equipped with everything you need to build a high performing website for your SaaS.
+                                    Arclite Technologies is fully equipped with everything you need to build a high performing website for your SaaS.
                                 </p>
                                 <Link href="" className="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">
                                     Free trial
@@ -326,8 +326,8 @@ const ModernSaas = () => {
                     </div>
                 </section>
 
-                <section className="bg-gradient-to-t from-white/[55%] to-transparent py-8 dark:bg-white/[0.03] dark:bg-none lg:py-20 px-5">
-                    <div className="relative mx-auto max-w-[1440px] bg-black pt-14 rounded-[32px]">
+                <section className="bg-gradient-to-t from-white/[55%] to-transparent py-8 px-5 dark:bg-white/[0.03] dark:bg-none lg:py-20">
+                    <div className="relative mx-auto max-w-[1440px] rounded-[32px] bg-black pt-14">
                         <img src="/assets/images/modern-saas/perfomance-design.svg" alt="" className="absolute bottom-0 ltr:right-0 rtl:left-0" />
                         <img src="/assets/images/modern-saas/dollers-icon.svg" alt="" className="absolute top-0 ltr:right-14 rtl:left-14" />
                         <div className="container">
@@ -489,7 +489,7 @@ const ModernSaas = () => {
                 <section className="bg-white/50 py-14 dark:bg-white/[0.03] lg:py-20">
                     <div className="container">
                         <div className="heading mb-5 text-center">
-                            <h6 className="!text-secondary">Drive more lead with Plurk</h6>
+                            <h6 className="!text-secondary">Drive more lead with Arclite Technologies</h6>
                             <h4 className="">Our response management having automatically track customer sentiment</h4>
                         </div>
                         <div
@@ -602,9 +602,9 @@ const ModernSaas = () => {
                     </div>
                 </section>
 
-                <section className="py-[60px] dark:bg-gray-dark px-5">
+                <section className="py-[60px] px-5 dark:bg-gray-dark">
                     <Testimonial
-                        className="mx-auto max-w-[1440px] py-14 dark:!bg-black md:py-20 rounded-[32px]"
+                        className="mx-auto max-w-[1440px] rounded-[32px] py-14 dark:!bg-black md:py-20"
                         showTitle={true}
                         type="modern-saas"
                         feedbacks={feedbacks}

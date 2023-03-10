@@ -8,7 +8,7 @@ const Privacypolicy = () => {
     return (
         <div>
             <Head>
-                <title>Privacy Policy | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Privacy Policy | Arclite Technologies</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">

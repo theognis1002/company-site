@@ -10,7 +10,7 @@ const Portfoliodetail = (props: any) => {
     return (
         <div>
             <Head>
-                <title>Portfolio Detail | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Portfolio Detail | Arclite Technologies</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
