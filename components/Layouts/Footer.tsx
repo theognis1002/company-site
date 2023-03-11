@@ -90,11 +90,11 @@ const Footer = () => {
                                         Service
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/team" className="inline-block transition hover:scale-110 hover:text-secondary">
                                         Team
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/about-us" className="inline-block transition hover:scale-110 hover:text-secondary">
                                         About Us

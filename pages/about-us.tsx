@@ -636,8 +636,9 @@ const Aboutus = () => {
                             <h4>We thrive to help our clients have global impact</h4>
                         </div>
                         <p className="pb-10 text-lg font-semibold leading-[30px]">
-                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a
-                            typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                            Arclite Technologies is a leading software application development company that is dedicated to providing cutting-edge solutions to
+                            our clients. Our team is composed of highly skilled professionals who are passionate about developing innovative products that solve
+                            complex business challenges.
                         </p>
                         <Link href="/career" className="btn capitalize text-white">
                             Join Our Team
@@ -659,7 +660,7 @@ const Aboutus = () => {
                             <h4>Here are 3 working steps to organize our business projects.</h4>
                         </div>
                         <p className="pb-10 text-center text-lg font-semibold leading-[30px] ltr:lg:text-left rtl:lg:text-right">
-                            Find out everything you need to know and more about how we create our business process models.
+                            Find out everything you need to know and more about how we create our business solutions.
                         </p>
                     </div>
                     <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
@@ -672,10 +673,8 @@ const Aboutus = () => {
                                     01
                                 </span>
                                 <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Collect Ideas</h6>
-                                    <p className="text-sm font-semibold text-black dark:text-gray">
-                                        The generated Lorem Ipsum is therefore always free from repetition.
-                                    </p>
+                                    <h6 className="mb-1 font-bold text-secondary">Understand Problem</h6>
+                                    <p className="text-sm font-semibold text-black dark:text-gray">Listen and fully understand the business problem</p>
                                 </div>
                             </div>
                         </div>
@@ -688,9 +687,9 @@ const Aboutus = () => {
                                     02
                                 </span>
                                 <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Data Analysis</h6>
+                                    <h6 className="mb-1 font-bold text-secondary">Gather Requirements</h6>
                                     <p className="text-sm font-semibold text-black dark:text-gray">
-                                        There are many variations of passages of Lorem Ipsum available
+                                        Outline scope and define specific application requirements
                                     </p>
                                 </div>
                             </div>
@@ -704,9 +703,37 @@ const Aboutus = () => {
                                     03
                                 </span>
                                 <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Finalize Product</h6>
+                                    <h6 className="mb-1 font-bold text-secondary">Design</h6>
+                                    <p className="text-sm font-semibold text-black dark:text-gray">Sketch out general architecture & technical design</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <div
+                                className="flex items-start gap-[10px] rounded-[10px] border border-transparent bg-secondary/10 py-6 px-5 transition
+                            hover:border-secondary hover:bg-transparent"
+                            >
+                                <span className="flex h-[50px] w-[50px] min-w-[50px] items-center justify-center rounded-full bg-secondary text-lg text-white">
+                                    04
+                                </span>
+                                <div>
+                                    <h6 className="mb-1 font-bold text-secondary">Develop</h6>
+                                    <p className="text-sm font-semibold text-black dark:text-gray">Scaffold, build, and deploy solution</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <div
+                                className="flex items-start gap-[10px] rounded-[10px] border border-transparent bg-secondary/10 py-6 px-5 transition
+                            hover:border-secondary hover:bg-transparent"
+                            >
+                                <span className="flex h-[50px] w-[50px] min-w-[50px] items-center justify-center rounded-full bg-secondary text-lg text-white">
+                                    05
+                                </span>
+                                <div>
+                                    <h6 className="mb-1 font-bold text-secondary">Iterate</h6>
                                     <p className="text-sm font-semibold text-black dark:text-gray">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text
+                                        Sync often with stakeholders to ensure project is delivered on time - meeting all business requirements
                                     </p>
                                 </div>
                             </div>

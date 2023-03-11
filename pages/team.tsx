@@ -359,8 +359,10 @@ const Team = () => {
                             <h4>We thrive to help our clients have global impact</h4>
                         </div>
                         <p className="pb-10 text-lg font-semibold leading-[30px]">
-                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a
-                            typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                            Arclite Technologies is a leading software application development company that is dedicated to providing cutting-edge solutions to
+                            our clients. Our team is composed of highly skilled professionals who are passionate about developing innovative products that solve
+                            complex business challenges. If you are looking for a rewarding career in software development with a company that values
+                            innovation, creativity, and excellence, then Arclite Technologies is the place for you.
                         </p>
                         <Link href="/career" className="btn capitalize text-white">
                             Join Our Team
@@ -370,7 +372,7 @@ const Team = () => {
                 <img src="/assets/images/about-who-bg.png" alt="about-who-bg" className="-bottom-5 ltr:right-0 rtl:left-0 rtl:rotate-y-180 lg:absolute" />
             </section>
 
-            <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:from-white/5 lg:py-[100px]">
+            {/* <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:from-white/5 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
                         <h4>Our Visionary Leaders</h4>
@@ -530,7 +532,7 @@ const Team = () => {
                 </div>
             </section>
 
-            <Testimonial />
+            <Testimonial /> */}
         </div>
     );
 };

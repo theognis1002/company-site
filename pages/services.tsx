@@ -552,9 +552,9 @@ const Services = () => {
                             <h6>How We Do It?</h6>
                             <h4>We make your spending stress-free for you to have the perfect control.</h4>
                             <p className="pt-5 text-lg font-semibold">
-                                Find out everything you need to know and more about how we create our business process models. There are many variations of
-                                passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
-                                words which don't look even slightly believable.
+                                By using agile development methodologies and leveraging open-source technologies to streamline processes, we reduce costs while
+                                delivering high-quality products. Our team of experts works closely with clients to understand their business challenges and
+                                goals, and we strive to deliver solutions that exceed their expectations while staying within their budget.
                             </p>
                         </div>
                         <div className="grid gap-4 rounded-[32px] sm:grid-cols-2 sm:gap-0">

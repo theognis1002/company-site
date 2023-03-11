@@ -26,7 +26,8 @@ const Index = (props: any) => {
                                     <span className="italic text-secondary">Amplify</span> your <span className="italic text-primary">company</span>
                                 </h2>
                                 <p className="my-8 text-lg lg:w-[90%] ">
-                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.
+                                    From simple websites to customized enterprise applications, we're dedicated to providing cutting-edge solutions to our
+                                    clients.
                                 </p>
                                 <Link href="/about-us" className="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">
                                     read more
