@@ -30,11 +30,6 @@ const Faq = ({
             question: 'Do you have premium plans for products?',
             answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         },
-        {
-            id: 6,
-            question: 'Who else is using plurk SaaS tool?',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
     ],
 }) => {
     const [active, setActive] = useState<any>(0);

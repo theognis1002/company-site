@@ -441,21 +441,16 @@ const Index = (props: any) => {
                                     Website
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'app' ? 'active' : ''}`}>
-                                <button type="button" onClick={() => setActiveTab('app')} className="transition hover:text-secondary">
-                                    Mobile App
-                                </button>
-                            </li>
                             <li className={`filter ${activeTab === 'web' ? 'active' : ''}`}>
                                 <button type="button" onClick={() => setActiveTab('web')} className="transition hover:text-secondary">
                                     Web Application
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'ecommerce' ? 'active' : ''}`}>
+                            {/* <li className={`filter ${activeTab === 'ecommerce' ? 'active' : ''}`}>
                                 <button type="button" onClick={() => setActiveTab('ecommerce')} className="transition hover:text-secondary">
                                     Ecommerce
                                 </button>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="projects grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

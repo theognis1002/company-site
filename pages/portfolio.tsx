@@ -537,15 +537,6 @@ const Portfolio = () => {
                                         Website
                                     </button>
                                 </li>
-                                <li className={`filter ${activeTab === 'app' ? 'active' : ''}`}>
-                                    <button
-                                        type="button"
-                                        onClick={() => setActiveTab('app')}
-                                        className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
-                                    >
-                                        Mobile App
-                                    </button>
-                                </li>
                                 <li className={`filter ${activeTab === 'application' ? 'active' : ''}`}>
                                     <button
                                         type="button"

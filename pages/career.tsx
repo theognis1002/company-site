@@ -385,13 +385,14 @@ const Career = () => {
                                 <h4>Join the Team</h4>
                             </div>
                             <div className="text-center font-semibold ltr:md:text-left rtl:md:text-right">
-                                <p className="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptatibus modi voluptates!</p>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quas dignissimos odio non assumenda molestias velit, cumque
-                                    consequuntur repellat officia sapiente error necessitatibus, perferendis laborum quae sed! Libero quibusdam reprehenderit
-                                    excepturi debitis fuga, placeat quidem odit explicabo voluptatibus ipsa consequatur atque. Nemo tempore obcaecati
-                                    exercitationem?
+                                <p className="pb-5">
+                                    We're building a dynamic and innovative startup culture that values creativity, collaboration, and experimentation!
                                 </p>
+                                <p className="pb-5">
+                                    As a member of our team, you'll be working alongside other talented developers and stakeholders who are committed to
+                                    creating industry-leading products and services that will revolutionize the way people live and work.
+                                </p>
+                                <p>If you're a developers who is excited about the challenge of building something, we would love to talk!</p>
                                 <Link href="/career#open-position" className="btn mt-10 capitalize text-white">
                                     Open Positions
                                 </Link>
@@ -519,7 +520,7 @@ const Career = () => {
                         <h4>Great benefits of working at Arclite Technologies</h4>
                     </div>
                     <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
-                        <div data-aos="fade-up" data-aos-duration="1000">
+                        {/* <div data-aos="fade-up" data-aos-duration="1000">
                             <div className="flex items-center justify-start gap-3 rounded-[32px] border-2 border-white bg-white p-6 drop-shadow-[5px_10px_60px_rgba(119,128,161,0.08)] transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary sm:justify-center md:p-10">
                                 <div>
                                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -546,7 +547,7 @@ const Career = () => {
                                 </div>
                                 <h6 className="text-xl font-bold text-black dark:text-white">Health Insurance</h6>
                             </div>
-                        </div>
+                        </div> */}
                         <div data-aos="fade-up" data-aos-duration="1000">
                             <div className="flex items-center justify-start gap-3 rounded-[32px] border-2 border-white bg-white p-6 drop-shadow-[5px_10px_60px_rgba(119,128,161,0.08)] transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary sm:justify-center md:p-10">
                                 <div>
@@ -719,7 +720,7 @@ const Career = () => {
                                 <h6 className="text-xl font-bold text-black dark:text-white">Flexible Work Environment</h6>
                             </div>
                         </div>
-                        <div data-aos="fade-up" data-aos-duration="1000">
+                        {/* <div data-aos="fade-up" data-aos-duration="1000">
                             <div className="flex items-center justify-start gap-3 rounded-[32px] border-2 border-white bg-white p-6 drop-shadow-[5px_10px_60px_rgba(119,128,161,0.08)] transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary sm:justify-center md:p-10">
                                 <div>
                                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -752,7 +753,7 @@ const Career = () => {
                                 </div>
                                 <h6 className="text-xl font-bold text-black dark:text-white">Healthy Snacks</h6>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
@@ -774,22 +775,22 @@ const Career = () => {
                                     All Positions
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'design' ? 'active' : ''}`}>
+                            <li className={`filter ${activeTab === 'accounting' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('design')}
+                                    onClick={() => setActiveTab('accounting')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    UI/UX Design
+                                    Accounting & Finance
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'website' ? 'active' : ''}`}>
+                            <li className={`filter ${activeTab === 'business' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('website')}
+                                    onClick={() => setActiveTab('business')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    Website Development
+                                    Business Operations
                                 </button>
                             </li>
                             <li className={`filter ${activeTab === 'app' ? 'active' : ''}`}>
@@ -801,10 +802,10 @@ const Career = () => {
                                     Application Development
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'marketing' ? 'active' : ''}`}>
+                            <li className={`filter ${activeTab === 'data' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('marketing')}
+                                    onClick={() => setActiveTab('data')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
                                     Data Analytics
@@ -813,10 +814,10 @@ const Career = () => {
                         </ul>
                     </div>
                     <div className="projects grid gap-[30px] md:grid-cols-2">
-                        <div className={`project ${activeTab === 'all' || activeTab === 'design' ? 'block' : 'hidden'}`}>
+                        <div className={`project ${activeTab === 'all' || activeTab === 'accounting' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Design</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Lead Mobile UI/UX Designer</h4>
+                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Accounting</h6>
+                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Bookkeeper</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -830,7 +831,7 @@ const Career = () => {
                                             </svg>
                                         </div>
                                         <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            San Francisco, CA - <span className="text-primary">Full Time</span>
+                                            Remote, USA - <span className="text-primary">Full Time</span>
                                         </div>
                                     </div>
                                     <Link
@@ -847,10 +848,10 @@ const Career = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className={`project ${activeTab === 'all' || activeTab === 'website' ? 'block' : 'hidden'}`}>
+                        <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Website development</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. Systems Engineer - Java</h4>
+                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Application Development</h6>
+                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. Python Developer - Django</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -864,7 +865,7 @@ const Career = () => {
                                             </svg>
                                         </div>
                                         <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            Memphis, TN - <span className="text-primary">Remote</span>
+                                            Remote, USA - <span className="text-primary">Remote</span>
                                         </div>
                                     </div>
                                     <Link
@@ -884,7 +885,7 @@ const Career = () => {
                         <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
                                 <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Flutter Developer</h4>
+                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. Fullstack Developer - Javascript</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -898,7 +899,7 @@ const Career = () => {
                                             </svg>
                                         </div>
                                         <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            Helsinki, Finland - <span className="text-primary">Remote</span>
+                                            Remote, USA - <span className="text-primary">Remote</span>
                                         </div>
                                     </div>
                                     <Link
@@ -915,10 +916,10 @@ const Career = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className={`project ${activeTab === 'all' || activeTab === 'marketing' ? 'block' : 'hidden'}`}>
+                        <div className={`project ${activeTab === 'all' || activeTab === 'business' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Digital marketing</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. SEO Expert</h4>
+                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Business Operations</h6>
+                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Business Development Associate</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -932,7 +933,7 @@ const Career = () => {
                                             </svg>
                                         </div>
                                         <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            Owings, Maryland - <span className="text-primary">Remote</span>
+                                            Remote, USA - <span className="text-primary">Remote</span>
                                         </div>
                                     </div>
                                     <Link
@@ -952,7 +953,7 @@ const Career = () => {
                         <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
                                 <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Flutter Developer</h4>
+                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Javascript Developer</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -966,41 +967,7 @@ const Career = () => {
                                             </svg>
                                         </div>
                                         <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            Helsinki, Finland - <span className="text-primary">Remote</span>
-                                        </div>
-                                    </div>
-                                    <Link
-                                        href="#"
-                                        className="flex h-[45px] w-[45px] items-center justify-center rounded-full bg-[#F3F4F6] text-black transition hover:bg-secondary hover:text-white rtl:rotate-180 dark:bg-black dark:text-white"
-                                    >
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.41083 14.4102L10.5892 15.5885L16.1783 9.99932L10.5892 4.41016L9.41083 5.58849L12.9883 9.16599H5V10.8327H12.9883L9.41083 14.4102Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={`project ${activeTab === 'all' || activeTab === 'marketing' ? 'block' : 'hidden'}`}>
-                            <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Digital marketing</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. SEO Expert</h4>
-                                <div className="flex items-center justify-between">
-                                    <div className="flex items-center gap-3">
-                                        <div>
-                                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    fillRule="evenodd"
-                                                    clipRule="evenodd"
-                                                    d="M0 8.45529C0 3.77836 3.8292 0 8.53659 0C13.244 0 17.0732 3.77836 17.0732 8.45529C17.0732 11.3641 15.3769 14.235 13.5791 16.3248C12.6693 17.3823 11.7037 18.2751 10.852 18.9101C10.4268 19.227 10.0181 19.4886 9.64923 19.6744C9.30343 19.8485 8.90853 20 8.53659 20C8.16464 20 7.76974 19.8485 7.42394 19.6744C7.05506 19.4886 6.6464 19.227 6.22121 18.9101C5.36948 18.2751 4.40386 17.3823 3.49409 16.3248C1.69631 14.235 0 11.3641 0 8.45529ZM8.53661 10.9748C6.92017 10.9748 5.60978 9.66437 5.60978 8.04792C5.60978 6.43148 6.92017 5.12109 8.53661 5.12109C10.1531 5.12109 11.4634 6.43148 11.4634 8.04792C11.4634 9.66437 10.1531 10.9748 8.53661 10.9748Z"
-                                                    fill="#FFBD11"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            Owings, Maryland - <span className="text-primary">Remote</span>
+                                            Remote, USA - <span className="text-primary">Remote</span>
                                         </div>
                                     </div>
                                     <Link
@@ -1062,7 +1029,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Daniel Allen
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Marketing Officer</h6>
+                            <h6 className="text-sm font-bold">Chief business Officer</h6>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
@@ -1098,7 +1065,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Daniel Allen
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Marketing Officer</h6>
+                            <h6 className="text-sm font-bold">Chief business Officer</h6>
                         </div>
                     </div>
                 </div>
