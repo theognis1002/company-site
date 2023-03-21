@@ -435,9 +435,9 @@ const Servicesdetail = () => {
 
             <BlogSlider title2="Related articles" />
 
-            <Testimonial showTitle={false} />
+            {/* <Testimonial showTitle={false} /> */}
 
-            <Faq showTitle={false} />
+            {/* <Faq showTitle={false} /> */}
 
             <section className="py-14 dark:bg-gray-dark lg:py-[100px]">
                 <div className="container">

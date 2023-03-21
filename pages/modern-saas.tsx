@@ -602,14 +602,14 @@ const ModernSaas = () => {
                     </div>
                 </section>
 
-                <section className="py-[60px] px-5 dark:bg-gray-dark">
+                {/* <section className="py-[60px] px-5 dark:bg-gray-dark">
                     <Testimonial
                         className="mx-auto max-w-[1440px] rounded-[32px] py-14 dark:!bg-black md:py-20"
                         showTitle={true}
                         type="modern-saas"
                         feedbacks={feedbacks}
                     />
-                </section>
+                </section> */}
 
                 <Faq showTitle={true} type="modern-saas" queries={faqs} />
 

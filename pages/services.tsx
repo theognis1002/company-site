@@ -682,7 +682,7 @@ const Services = () => {
                 </div>
             </section>
 
-            <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 lg:pb-[100px] lg:pt-[130px]">
+            {/* <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 lg:pb-[100px] lg:pt-[130px]">
                 <div className="relative bg-center">
                     <img
                         src="/assets/images/how-we-do-it_.png"
@@ -729,7 +729,7 @@ const Services = () => {
                         </button>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <Modal
                 ref={dialog}
@@ -1292,7 +1292,7 @@ const Services = () => {
                 </div>
             </section>
 
-            <Testimonial />
+            {/* <Testimonial /> */}
 
             <section className="relative overflow-x-hidden border-t-2 border-transparent px-4 py-14 dark:border-gray/20 lg:py-[100px]">
                 <div className="items-center justify-center gap-10 lg:flex">

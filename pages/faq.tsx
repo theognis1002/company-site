@@ -567,7 +567,7 @@ const FAQs = () => {
 
             <Contactus />
 
-            <Testimonial />
+            {/* <Testimonial /> */}
         </div>
     );
 };

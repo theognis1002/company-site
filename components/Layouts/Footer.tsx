@@ -145,11 +145,11 @@ const Footer = () => {
                                         Privacy Policy
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/faq" className="inline-block transition hover:scale-110 hover:text-secondary">
                                         FAQs
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/blog" className="inline-block transition hover:scale-110 hover:text-secondary">
                                         Blog

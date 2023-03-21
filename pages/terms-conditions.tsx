@@ -832,16 +832,16 @@ const Termsandcondition = () => {
                         <p className="pb-5 text-lg font-medium">
                             his document is published in accordance with the provisions of Rule 3 (1) of the Information Technology (Intermediaries guidelines)
                             Rules, 2011 that require publishing the rules and regulations, privacy policy and Terms of Use for access or usage of
-                            careers.padme.com, life. padme.com & blog.padme.com website.
+                            www.arclite-technologies.com website.
                         </p>
                         <p className="pb-5 text-lg font-medium">
-                            This Website, including all Materials present (excluding any applicable third party materials), is the property of Myntra and is
-                            copyrighted and protected by worldwide copyright laws and treaty provisions. You hereby agree to comply with all copyright laws
-                            worldwide in Your use of this Website and to prevent any unauthorized copying of the Materials.
+                            This Website, including all Materials present (excluding any applicable third party materials), is the property of Arclite
+                            Technologies, L.L.C. and is copyrighted and protected by worldwide copyright laws and treaty provisions. You hereby agree to comply
+                            with all copyright laws worldwide in Your use of this Website and to prevent any unauthorized copying of the Materials.
                         </p>
                         <p className="pb-5 text-lg font-medium">
-                            By accessing this website we assume you accept these terms and conditions. Do not continue to use Website Name if you do not agree
-                            to take all of the terms and conditions stated on this page.
+                            By accessing this website we assume you accept these terms and conditions. Do not continue to use www.arclite-technologies.com if
+                            you do not agree to take all of the terms and conditions stated on this page.
                         </p>
                         <p className="text-lg font-medium">
                             The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements:
@@ -853,8 +853,8 @@ const Termsandcondition = () => {
                     <div className="pb-12">
                         <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Cookies</h4>
                         <p className="pb-5 text-lg font-medium">
-                            We employ the use of cookies. By accessing Website Name, you agreed to use cookies in agreement with the Company Name's Privacy
-                            Policy.
+                            We employ the use of cookies. By accessing www.arclite-technologies.com, you agreed to use cookies in agreement with the Arclite
+                            Technologies, L.L.C.'s Privacy Policy.
                         </p>
                         <p className="text-lg font-medium">
                             Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to
@@ -865,39 +865,39 @@ const Termsandcondition = () => {
                     <div className="pb-12">
                         <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">License</h4>
                         <p className="pb-5 text-lg font-medium">
-                            Unless otherwise stated, Company Name and/or its licensors own the intellectual property rights for all material on Website Name.
-                            All intellectual property rights are reserved. You may access this from Website Name for your own personal use subjected to
-                            restrictions set in these terms and conditions.
+                            Unless otherwise stated, Arclite Technologies, L.L.C. and/or its licensors own the intellectual property rights for all material on
+                            www.arclite-technologies.com. All intellectual property rights are reserved. You may access this from www.arclite-technologies.com
+                            for your own personal use subjected to restrictions set in these terms and conditions.
                         </p>
                         <h6 className="pb-2 font-semibold text-black">You must not:</h6>
                         <ul className="pb-5 text-lg font-medium">
                             <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
-                                Republish material from Website Name
+                                Republish material from www.arclite-technologies.com
                             </li>
                             <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
-                                Sell, rent or sub-license material from Website Name
+                                Sell, rent or sub-license material from www.arclite-technologies.com
                             </li>
                             <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
-                                Reproduce, duplicate or copy material from Website Name
+                                Reproduce, duplicate or copy material from www.arclite-technologies.com
                             </li>
                             <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
-                                Redistribute content from Website Name
+                                Redistribute content from www.arclite-technologies.com
                             </li>
                         </ul>
                         <p className="pb-5 text-lg font-medium">This Agreement shall begin on the date hereof.</p>
                         <p className="pb-5 text-lg font-medium">
                             Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website.
-                            Company Name does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the
-                            views and opinions of Company Name,its agents and/or affiliates. Comments reflect the views and opinions of the person who post
-                            their views and opinions.
+                            Arclite Technologies, L.L.C. does not filter, edit, publish or review Comments prior to their presence on the website. Comments do
+                            not reflect the views and opinions of Arclite Technologies, L.L.C.,its agents and/or affiliates. Comments reflect the views and
+                            opinions of the person who post their views and opinions.
                         </p>
                         <p className="pb-5 text-lg font-medium">
-                            Company Name reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive
-                            or causes breach of these Terms and Conditions.
+                            Arclite Technologies, L.L.C. reserves the right to monitor all Comments and to remove any Comments which can be considered
+                            inappropriate, offensive or causes breach of these Terms and Conditions.
                         </p>
                         <p className="pb-5 text-lg font-medium">
-                            Company Name reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive
-                            or causes breach of these Terms and Conditions.
+                            Arclite Technologies, L.L.C. reserves the right to monitor all Comments and to remove any Comments which can be considered
+                            inappropriate, offensive or causes breach of these Terms and Conditions.
                         </p>
                         <h6 className="pb-2 font-semibold text-black">You warrant and represent that:</h6>
                         <ul className="pb-5 text-lg font-medium ltr:pl-1 rtl:pr-1">
@@ -916,8 +916,8 @@ const Termsandcondition = () => {
                             </li>
                         </ul>
                         <p className="text-lg font-medium">
-                            You hereby grant Company Name a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of
-                            your Comments in any and all forms, formats or media.
+                            You hereby grant Arclite Technologies, L.L.C. a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce
+                            and edit any of your Comments in any and all forms, formats or media.
                         </p>
                     </div>
                     <div>

@@ -314,17 +314,18 @@ const Privacypolicy = () => {
                     <div className="pb-12">
                         <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Privacy Policy</h4>
                         <p className="pb-5 text-lg font-medium">
-                            At www.padmemarketplace.com, accessible at www.padmemarketplace.com, one of our main priorities is the privacy of our visitors. This
-                            Privacy Policy document contains types of information that is collected and recorded by www.plurk.com and how we use it.
+                            At www.arclite-technologies.com, accessible at www.arclite-technologies.com, one of our main priorities is the privacy of our
+                            visitors. This Privacy Policy document contains types of information that is collected and recorded by www.arclite-technologies.com
+                            and how we use it.
                         </p>
                         <p className="pb-5 text-lg font-medium">
                             If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email
-                            at info@plruk.com
+                            at admin@ticketbrokerlist.com
                         </p>
                         <p className="text-lg font-medium">
                             This privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information
-                            that they shared and/or collect in www.padmemarketplace.com. This policy is not applicable to any information collected offline or
-                            via channels other than this website.
+                            that they shared and/or collect in www.arclite-technologies.com. This policy is not applicable to any information collected offline
+                            or via channels other than this website.
                         </p>
                     </div>
                     <div className="pb-12">
