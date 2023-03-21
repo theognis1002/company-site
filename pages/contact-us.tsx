@@ -901,7 +901,7 @@ const Contactus = () => {
                     </div>
                 </div>
             </section>
-
+            {/* 
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
@@ -1068,12 +1068,12 @@ const Contactus = () => {
                     </div>
                     <img src="/assets/images/canada-branch.png" alt="canada-branch" className="w-full" />
                 </div>
-            </section>
+            </section> */}
 
-            <OfficeSwiper />
+            {/* <OfficeSwiper /> */}
 
-            <Faq showTitle={true} />
-
+            {/* <Faq showTitle={true} /> */}
+            {/* 
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
@@ -1476,8 +1476,8 @@ const Contactus = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-
+            </section> */}
+            {/* 
             <section className="bg-gradient-to-b from-white/40 to-transparent py-14 dark:from-white/[0.03] lg:py-[100px]">
                 <div className="container">
                     <div className="mx-auto text-center sm:w-[430px]">
@@ -1495,7 +1495,7 @@ const Contactus = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 };
