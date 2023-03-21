@@ -125,11 +125,11 @@ const Footer = () => {
                                         Data Analytics
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
                                         UI/UX Design
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div>

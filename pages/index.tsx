@@ -78,12 +78,12 @@ const Index = (props: any) => {
                                         />
                                     </svg>
                                 </div>
-                                <Link
+                                {/* <Link
                                     href="/services-detail"
                                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                 >
                                     UI/UX Design
-                                </Link>
+                                </Link> */}
                                 <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
                                     We provide services with the best designs than our designer team for your business.
                                 </p>
@@ -257,7 +257,7 @@ const Index = (props: any) => {
                                         </div>
                                         <div className="ltr:pl-3 rtl:pr-3">
                                             <h4 className="mb-2 text-lg font-bold text-white">Creativity</h4>
-                                            <p className="font-semibold">Curabitur blandit lacus porttitor ridiculus mus.</p>
+                                            <p className="font-semibold">Providing solutions in creative and unique ways.</p>
                                         </div>
                                     </div>
                                     <div className="flex transition">
@@ -330,7 +330,7 @@ const Index = (props: any) => {
                                         </div>
                                         <div className="ltr:pl-3 rtl:pr-3">
                                             <h4 className="mb-2 text-lg font-bold text-white">Innovative Thinking</h4>
-                                            <p className="font-semibold">There are many variations of passages of Lorem Ipsum available</p>
+                                            <p className="font-semibold">We are at the cutting edge of the tech stack and providing solutions</p>
                                         </div>
                                     </div>
                                     <div className="flex transition">
@@ -366,7 +366,7 @@ const Index = (props: any) => {
                                         </div>
                                         <div className="ltr:pl-3 rtl:pr-3">
                                             <h4 className="mb-2 text-lg font-bold text-white">Rapid Solutions</h4>
-                                            <p className="font-semibold">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                                            <p className="font-semibold">Agile development with rapid iteration from constant client feedback.</p>
                                         </div>
                                     </div>
                                     <div className="flex transition">
@@ -392,9 +392,7 @@ const Index = (props: any) => {
                                         </div>
                                         <div className="ltr:pl-3 rtl:pr-3">
                                             <h4 className="mb-2 text-lg font-bold text-white">Top-Notch Support</h4>
-                                            <p className="font-semibold">
-                                                It has survived not only five centuries, but also the leap into electronic typesetting
-                                            </p>
+                                            <p className="font-semibold">Listening and providing value to our clients is our greatest strength.</p>
                                         </div>
                                     </div>
                                 </div>
