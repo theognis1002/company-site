@@ -30,7 +30,7 @@
     },
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.10",
-        "@types/aos": "^3.0.4",
+        "@types/aos": "^3.0.5",
         "autoprefixer": "^10.4.15",
         "postcss": "^8.4.29",
         "prettier": "^3.0.3",
