@@ -39,7 +39,7 @@ const CounterComponent = (props: any) => {
                         </div>
                         <div className="ltr:pl-4 rtl:pr-4">
                             <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
-                                <CountUp start={0} end={9} duration={4} suffix="+"></CountUp>
+                                <CountUp start={0} end={10} duration={4} suffix="+"></CountUp>
                             </h4>
 
                             <span className="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Year in Business</span>
@@ -77,7 +77,7 @@ const CounterComponent = (props: any) => {
                         </div>
                         <div className="ltr:pl-4 rtl:pr-4">
                             <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
-                                <CountUp start={0} end={5} duration={4} suffix="+"></CountUp>
+                                <CountUp start={0} end={3} duration={4} suffix="+"></CountUp>
                             </h4>
                             <span className="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Team Members</span>
                         </div>

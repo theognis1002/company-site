@@ -5,7 +5,7 @@ import Modal from '../components/Modal';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation, Autoplay, Virtual } from 'swiper';
+import { Navigation, Autoplay, Virtual } from 'swiper/modules';
 import Link from 'next/link';
 import Head from 'next/head';
 import { useRef } from 'react';
@@ -410,10 +410,10 @@ const Services = () => {
                                     href="/services-detail"
                                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                 >
-                                    UI/UX Design
+                                    AI Solutions
                                 </Link>
                                 <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                    We provide services with the best designs than our designer team for your business.
+                                    We provide cutting edge solutions for your team and business.
                                 </p>
                                 <Link
                                     href="/services-detail"
@@ -460,7 +460,7 @@ const Services = () => {
                                     href="/services-detail"
                                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                 >
-                                    Web Development
+                                    App Development
                                 </Link>
                                 <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
                                     We help develop company websites to be more professional and attractive
@@ -542,8 +542,8 @@ const Services = () => {
             <section className="py-14 lg:py-[100px]">
                 <CounterComponent />
             </section>
-
-            <ProjectSlider title1="Our Project" title2="Some of our finest work." />
+{/* 
+            <ProjectSlider title1="Our Project" title2="Some of our finest work." /> */}
 
             <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:from-white/5 lg:py-[100px]">
                 <div className="container">
@@ -1028,7 +1028,7 @@ const Services = () => {
                 </div>
             </section>
 
-            <section className="py-14 pb-[160p] lg:py-[100px]">
+            {/* <section className="py-14 pb-[160p] lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
                         <h6>TEAM. CUSTOMER. COMMUNITY</h6>
@@ -1290,7 +1290,7 @@ const Services = () => {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-            </section>
+            </section> */}
 
             {/* <Testimonial /> */}
 

@@ -160,7 +160,7 @@ const Footer = () => {
                         <div>
                             <ul className="flex flex-col gap-3 font-bold">
                                 <li className="mb-3 text-lg font-extrabold text-black dark:text-white">Information</li>
-                                <li>Washington, D.C., USA</li>
+                                <li>Washington, DC, USA</li>
                                 <li>
                                     {/* <a href="tel:+(555) 555-5555" className="inline-block transition hover:scale-110 hover:text-secondary">
                                         +(555) 555-5555
@@ -177,7 +177,7 @@ const Footer = () => {
                         <div>
                             Copyright© {new Date().getFullYear() + ' '}
                             <Link href="/" className="text-primary transition hover:text-secondary">
-                                Arclite Technologies, L.L.C.
+                                Arclite Technologies, LLC
                             </Link>
                         </div>
                         <div>

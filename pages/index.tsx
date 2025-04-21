@@ -1,4 +1,4 @@
-import Testimonial from '../components/Testimonial';
+// import Testimonial from '../components/Testimonial';
 import { useState } from 'react';
 import CounterComponent from '../components/CounterComponent';
 import Link from 'next/link';
@@ -49,7 +49,7 @@ const Index = (props: any) => {
             <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>High - Impact Services</h6>
+                        <h6>High - Impact Solutions</h6>
                         <h4>We help companies solve problems</h4>
                     </div>
                     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -78,12 +78,12 @@ const Index = (props: any) => {
                                         />
                                     </svg>
                                 </div>
-                                {/* <Link
+                                <Link
                                     href="/services-detail"
                                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                 >
-                                    UI/UX Design
-                                </Link> */}
+                                    AI Solutions
+                                </Link>
                                 <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
                                     We provide services with the best designs than our designer team for your business.
                                 </p>
@@ -136,7 +136,7 @@ const Index = (props: any) => {
                                     href="/services-detail"
                                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                 >
-                                    Web Development
+                                    App Development
                                 </Link>
                                 <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
                                     We help develop company websites to be more professional and attractive
@@ -403,13 +403,13 @@ const Index = (props: any) => {
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                {/* <div className="container">
                     <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                             <h6>Our Project</h6>
                             <h4>Some of our finest work.</h4>
                         </div>
-                        {/* <div className="flex items-center justify-end gap-4">
+                        <div className="flex items-center justify-end gap-4">
                             <div className="text-sm font-extrabold text-black dark:text-white">View All</div>
                             <button type="button" className="bg-black/5 dark:bg-white/5 w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary dark:hover:bg-secondary transition">
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-black dark:text-white">
@@ -421,7 +421,7 @@ const Index = (props: any) => {
                                     <path d="M1.05005 10.7998L5.51089 6.6576C5.93695 6.26197 5.93695 5.58764 5.51089 5.19201L1.05005 1.0498" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                                 </svg>
                             </button>
-                        </div> */}
+                        </div>
                     </div>
                     <div className="mb-7">
                         <ul className="filters home-filter mt-10 flex gap-8 overflow-x-auto whitespace-nowrap pb-3 font-bold lg:mt-0 lg:gap-10">
@@ -445,11 +445,6 @@ const Index = (props: any) => {
                                     Web Application
                                 </button>
                             </li>
-                            {/* <li className={`filter ${activeTab === 'ecommerce' ? 'active' : ''}`}>
-                                <button type="button" onClick={() => setActiveTab('ecommerce')} className="transition hover:text-secondary">
-                                    Ecommerce
-                                </button>
-                            </li> */}
                         </ul>
                     </div>
                     <div className="projects grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -514,7 +509,7 @@ const Index = (props: any) => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
             {/* <section className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                 <div className="container">
