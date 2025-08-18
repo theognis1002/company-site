@@ -95,11 +95,11 @@ const Footer = () => {
                                         Team
                                     </Link>
                                 </li> */}
-                                <li>
+                                {/* <li>
                                     <Link href="/about-us" className="inline-block transition hover:scale-110 hover:text-secondary">
                                         About Us
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/career" className="inline-block transition hover:scale-110 hover:text-secondary">
                                         Career

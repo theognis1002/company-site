@@ -11,7 +11,7 @@ const ServicesHero = () => {
                     <div className="items-center justify-between py-10 md:flex md:h-[400px] md:py-0">
                         <div className="heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
                             <h6>Services</h6>
-                            <h4 className="!text-white">High - Impact Services</h4>
+                            <h4 className="!text-white">High Impact Services</h4>
                         </div>
                         <div className="relative mt-6 md:mt-0" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
                                 <svg

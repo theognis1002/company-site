@@ -15,18 +15,18 @@ const Blogdetail = () => {
                     <div className="container">
                         <div className="relative w-full py-14 md:my-14 md:inline-block md:py-0 lg:my-[128px]">
                             <div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
-                                <h6>Project Management</h6>
-                                <h4 className="!text-white">Why is JIRA important for managing projects?</h4>
+                                <h6>AI Technology</h6>
+                                <h4 className="!text-white">Understanding Model Context Protocol: The Future of AI Integration</h4>
                                 <ul className="items-center justify-center pt-6 sm:flex lg:justify-start">
                                     <li className="flex items-center justify-center">
                                         <img src="/assets/images/sophia-avtar.png" alt="avtar" />
-                                        <span className="px-4 font-semibold sm:text-lg">Sophia Reyes</span>
+                                        <span className="px-4 font-semibold sm:text-lg">Michael McClelland</span>
                                     </li>
                                     <li className="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
-                                        June 2, 2021
+                                        August 19, 2025
                                     </li>
                                     <li className="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
-                                        3 mins read
+                                        4 mins read
                                     </li>
                                 </ul>
                             </div>
@@ -49,34 +49,35 @@ const Blogdetail = () => {
             <section className="bg-gradient-to-t from-white to-transparent py-14 dark:bg-none md:py-[100px]">
                 <div className="container">
                     <div className="prose max-w-full dark:prose-invert">
-                        <h2>Where does it come from?</h2>
+                        <h2>What is Model Context Protocol?</h2>
                         <p>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-                            making it over 2000 years old.
+                            Model Context Protocol (MCP) is an open standard that enables AI assistants to securely connect with external data sources and tools. 
+                            Developed by Anthropic, MCP provides a universal way for AI systems to access databases, APIs, file systems, and other resources 
+                            while maintaining strict security and user control.
                         </p>
                         <p>
-                            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-                            consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
-                            source.
-                        </p>
-
-                        <h2>Where can I get some?</h2>
-                        <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                            humour, or randomised words which don't look even slightly believable.
+                            Unlike traditional integrations that require custom APIs for each service, MCP creates a standardized protocol that works across 
+                            different AI assistants and applications. This means developers can build MCP servers once and have them work with any compatible AI system.
                         </p>
 
-                        <h2>Where does it come from?</h2>
+                        <h2>How MCP Works</h2>
+                        <p>
+                            MCP operates through a client-server architecture where AI assistants act as clients connecting to MCP servers. These servers expose 
+                            resources, tools, and prompts that the AI can utilize while ensuring all access is controlled and auditable.
+                        </p>
+
+                        <h2>Key Benefits</h2>
                         <ul>
-                            <li>Vestibulum hendrerit tortor ac rutrum porta.</li>
-                            <li>Donec gravida elit a auctor luctus.</li>
-                            <li>Integer iaculis odio id blandit varius.</li>
+                            <li>Standardized integration protocol across AI platforms</li>
+                            <li>Enhanced security with controlled access permissions</li>
+                            <li>Simplified development for AI-powered applications</li>
+                            <li>Seamless connection to existing enterprise systems</li>
                         </ul>
 
-                        <h4>What is Lorem Ipsum?</h4>
+                        <h4>The Future of AI Integration</h4>
                         <p>
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book.
+                            MCP represents a fundamental shift in how AI assistants interact with the world. By providing a secure, standardized way to access 
+                            external resources, it opens up possibilities for more powerful and versatile AI applications across industries.
                         </p>
 
                         <div className="not-prose grid gap-[30px] pb-12 sm:grid-cols-2 lg:grid-cols-3">
@@ -96,22 +97,22 @@ const Blogdetail = () => {
                             </div>
                         </div>
 
-                        <h2>1914 translation by H. Rackham</h2>
+                        <h2>Getting Started with MCP</h2>
                         <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-                            ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                            Implementing MCP in your applications is straightforward. Developers can create MCP servers using Python, TypeScript, or other supported 
+                            languages. These servers can then expose file systems, databases, web APIs, or custom business logic to AI assistants through the 
+                            standardized MCP protocol.
                         </p>
 
-                        <h2>The standard Lorem Ipsum passage</h2>
+                        <h2>Real-World Applications</h2>
                         <p>
-                            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                            written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
-                            Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                            MCP is already being used to connect AI assistants to Git repositories, databases, cloud services, and enterprise systems. 
+                            This enables AI to help with code reviews, data analysis, customer support, and complex business workflows that previously 
+                            required manual intervention.
                         </p>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                            humour, or randomised words which don't look even slightly believable.
+                            As more organizations adopt MCP, we're seeing the emergence of a rich ecosystem of MCP servers that provide AI assistants 
+                            with unprecedented capabilities while maintaining the security and control that enterprises require.
                         </p>
 
                         <div className="not-prose grid gap-[30px] pb-12 sm:grid-cols-2">

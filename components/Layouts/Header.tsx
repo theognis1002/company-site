@@ -149,11 +149,11 @@ const Header = (props: any) => {
                                         Team
                                     </Link>
                                 </li> */}
-                                <li>
+                                {/* <li>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
                                         About Us
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/career" className={router.pathname === '/career' ? 'active' : ''}>
                                         Career

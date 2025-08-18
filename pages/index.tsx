@@ -51,7 +51,7 @@ const Index = (props: any) => {
             <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>High - Impact Solutions</h6>
+                        <h6>High Impact Solutions</h6>
                         <h4>We help companies solve problems</h4>
                     </div>
                     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

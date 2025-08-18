@@ -17,7 +17,7 @@ const Blog = () => {
                         <div className="items-center justify-between py-10 md:flex md:h-[400px] md:py-0">
                             <div className="heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
                                 <h6>Blog</h6>
-                                <h4 className="!text-white">Unlock the latest trends/news</h4>
+                                <h4 className="!text-white">Model Context Protocol: The Future of AI Integration</h4>
                             </div>
                             <div className="relative mt-6 md:mt-0" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
                                 <svg
@@ -469,13 +469,13 @@ const Blog = () => {
                                 <Link href="/blog-details" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/blog-1.png" alt="blog-1" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="font-extrabold text-secondary dark:text-secondary">UI/UX Design</h6>
+                                    <h6 className="font-extrabold text-secondary dark:text-secondary">AI Technology</h6>
                                     <h5 className="my-[10px] block text-lg font-extrabold leading-[23px] text-black line-clamp-2 dark:text-white">
-                                        Simple & constructive methods to improve your visual/UI design
+                                        Understanding Model Context Protocol (MCP)
                                     </h5>
                                     <p className="line-clamp-4">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
-                                        from 45 BC, making it over 2000 years old.
+                                        MCP revolutionizes how AI assistants interact with external systems by providing a standardized protocol for secure, 
+                                        controlled access to tools, data sources, and services across different platforms.
                                     </p>
                                 </div>
                             </div>
@@ -485,13 +485,13 @@ const Blog = () => {
                                 <Link href="/blog-details" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/blog-2.png" alt="blog-2" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="font-extrabold text-secondary dark:text-secondary">Project Management</h6>
+                                    <h6 className="font-extrabold text-secondary dark:text-secondary">Integration</h6>
                                     <h5 className="my-[10px] block text-lg font-extrabold leading-[23px] text-black line-clamp-2 dark:text-white">
-                                        Why is JIRA important for managing projects?
+                                        MCP Servers: Bridging AI and Applications
                                     </h5>
                                     <p className="line-clamp-4">
-                                        Jira works well for Agile development projects for many reasons, including the ability to create Kanban and Scrum boards
-                                        with sprint planning and issue time estimation capabilities.
+                                        MCP servers act as intermediaries between AI assistants and various applications, enabling seamless integration 
+                                        with databases, APIs, and local tools while maintaining security and user control.
                                     </p>
                                 </div>
                             </div>
@@ -501,13 +501,13 @@ const Blog = () => {
                                 <Link href="/blog-details" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/blog-3.png" alt="blog-3" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="font-extrabold text-secondary dark:text-secondary">SEO Marketing</h6>
+                                    <h6 className="font-extrabold text-secondary dark:text-secondary">Development</h6>
                                     <h5 className="my-[10px] block text-lg font-extrabold leading-[23px] text-black line-clamp-2 dark:text-white">
-                                        What is SEO (Search Engine Optimization)?
+                                        Building MCP-Compatible Applications
                                     </h5>
                                     <p className="line-clamp-4">
-                                        Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web
-                                        page from search engines.
+                                        Learn how to implement MCP in your applications to create powerful AI integrations that can access file systems, 
+                                        databases, and web services while maintaining enterprise-grade security standards.
                                     </p>
                                 </div>
                             </div>
