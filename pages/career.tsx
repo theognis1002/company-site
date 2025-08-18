@@ -775,49 +775,40 @@ const Career = () => {
                                     All Positions
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'accounting' ? 'active' : ''}`}>
-                                <button
-                                    type="button"
-                                    onClick={() => setActiveTab('accounting')}
-                                    className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
-                                >
-                                    Accounting & Finance
-                                </button>
-                            </li>
                             <li className={`filter ${activeTab === 'business' ? 'active' : ''}`}>
                                 <button
                                     type="button"
                                     onClick={() => setActiveTab('business')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    Business Operations
+                                    Business Development
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'app' ? 'active' : ''}`}>
+                            <li className={`filter ${activeTab === 'engineering' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('app')}
+                                    onClick={() => setActiveTab('engineering')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    Application Development
+                                    Engineering
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'automation' ? 'active' : ''}`}>
+                            <li className={`filter ${activeTab === 'devops' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('automation')}
+                                    onClick={() => setActiveTab('devops')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    AI Automation
+                                    DevOps
                                 </button>
                             </li>
                         </ul>
                     </div>
                     <div className="projects grid gap-[30px] md:grid-cols-2">
-                        <div className={`project ${activeTab === 'all' || activeTab === 'accounting' ? 'block' : 'hidden'}`}>
+                        <div className={`project ${activeTab === 'all' || activeTab === 'business' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Accounting</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Bookkeeper</h4>
+                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Business Development</h6>
+                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Business Development Representative</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -848,10 +839,10 @@ const Career = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
+                        <div className={`project ${activeTab === 'all' || activeTab === 'engineering' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Application Development</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. Python Developer - Django</h4>
+                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Engineering</h6>
+                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Full-Stack AI Engineer</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -865,7 +856,7 @@ const Career = () => {
                                             </svg>
                                         </div>
                                         <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            Remote, USA - <span className="text-primary">Remote</span>
+                                            Remote, USA - <span className="text-primary">Full Time</span>
                                         </div>
                                     </div>
                                     <Link
@@ -882,10 +873,10 @@ const Career = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
+                        <div className={`project ${activeTab === 'all' || activeTab === 'devops' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. Fullstack Developer - Javascript</h4>
+                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">DevOps</h6>
+                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">DevOps Engineer</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -899,75 +890,7 @@ const Career = () => {
                                             </svg>
                                         </div>
                                         <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            Remote, USA - <span className="text-primary">Remote</span>
-                                        </div>
-                                    </div>
-                                    <Link
-                                        href="#"
-                                        className="flex h-[45px] w-[45px] items-center justify-center rounded-full bg-[#F3F4F6] text-black transition hover:bg-secondary hover:text-white rtl:rotate-180 dark:bg-black dark:text-white"
-                                    >
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.41083 14.4102L10.5892 15.5885L16.1783 9.99932L10.5892 4.41016L9.41083 5.58849L12.9883 9.16599H5V10.8327H12.9883L9.41083 14.4102Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={`project ${activeTab === 'all' || activeTab === 'business' ? 'block' : 'hidden'}`}>
-                            <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Business Operations</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Business Development Associate</h4>
-                                <div className="flex items-center justify-between">
-                                    <div className="flex items-center gap-3">
-                                        <div>
-                                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    fillRule="evenodd"
-                                                    clipRule="evenodd"
-                                                    d="M0 8.45529C0 3.77836 3.8292 0 8.53659 0C13.244 0 17.0732 3.77836 17.0732 8.45529C17.0732 11.3641 15.3769 14.235 13.5791 16.3248C12.6693 17.3823 11.7037 18.2751 10.852 18.9101C10.4268 19.227 10.0181 19.4886 9.64923 19.6744C9.30343 19.8485 8.90853 20 8.53659 20C8.16464 20 7.76974 19.8485 7.42394 19.6744C7.05506 19.4886 6.6464 19.227 6.22121 18.9101C5.36948 18.2751 4.40386 17.3823 3.49409 16.3248C1.69631 14.235 0 11.3641 0 8.45529ZM8.53661 10.9748C6.92017 10.9748 5.60978 9.66437 5.60978 8.04792C5.60978 6.43148 6.92017 5.12109 8.53661 5.12109C10.1531 5.12109 11.4634 6.43148 11.4634 8.04792C11.4634 9.66437 10.1531 10.9748 8.53661 10.9748Z"
-                                                    fill="#FFBD11"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            Remote, USA - <span className="text-primary">Remote</span>
-                                        </div>
-                                    </div>
-                                    <Link
-                                        href="#"
-                                        className="flex h-[45px] w-[45px] items-center justify-center rounded-full bg-[#F3F4F6] text-black transition hover:bg-secondary hover:text-white rtl:rotate-180 dark:bg-black dark:text-white"
-                                    >
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.41083 14.4102L10.5892 15.5885L16.1783 9.99932L10.5892 4.41016L9.41083 5.58849L12.9883 9.16599H5V10.8327H12.9883L9.41083 14.4102Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
-                            <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h6>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Javascript Developer</h4>
-                                <div className="flex items-center justify-between">
-                                    <div className="flex items-center gap-3">
-                                        <div>
-                                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    fillRule="evenodd"
-                                                    clipRule="evenodd"
-                                                    d="M0 8.45529C0 3.77836 3.8292 0 8.53659 0C13.244 0 17.0732 3.77836 17.0732 8.45529C17.0732 11.3641 15.3769 14.235 13.5791 16.3248C12.6693 17.3823 11.7037 18.2751 10.852 18.9101C10.4268 19.227 10.0181 19.4886 9.64923 19.6744C9.30343 19.8485 8.90853 20 8.53659 20C8.16464 20 7.76974 19.8485 7.42394 19.6744C7.05506 19.4886 6.6464 19.227 6.22121 18.9101C5.36948 18.2751 4.40386 17.3823 3.49409 16.3248C1.69631 14.235 0 11.3641 0 8.45529ZM8.53661 10.9748C6.92017 10.9748 5.60978 9.66437 5.60978 8.04792C5.60978 6.43148 6.92017 5.12109 8.53661 5.12109C10.1531 5.12109 11.4634 6.43148 11.4634 8.04792C11.4634 9.66437 10.1531 10.9748 8.53661 10.9748Z"
-                                                    fill="#FFBD11"
-                                                />
-                                            </svg>
-                                        </div>
-                                        <div className="font-bold text-black dark:text-white sm:text-lg">
-                                            Remote, USA - <span className="text-primary">Remote</span>
+                                            Remote, USA - <span className="text-primary">Full Time</span>
                                         </div>
                                     </div>
                                     <Link
