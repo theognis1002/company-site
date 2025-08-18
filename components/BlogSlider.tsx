@@ -13,26 +13,26 @@ const BlogSlider = ({
         {
             id: 1,
             thumbnail: '/assets/images/blog-1.png',
-            title: 'UI/UX Design',
-            excerpt: 'Simple & constructive methods to improve your visual/UI design',
+            title: 'The Future of AI in Business',
+            excerpt: 'How AI is revolutionizing industries and what it means for your company.',
             description:
-                'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.',
+                'From machine learning to natural language processing, AI is no longer a futuristic concept but a present-day reality. Discover how businesses are leveraging AI to innovate, optimize processes, and gain a competitive edge.',
         },
         {
             id: 2,
             thumbnail: '/assets/images/blog-2.png',
-            title: 'Project Management',
-            excerpt: 'Why is JIRA important for managing projects?',
+            title: 'Implementing AI: A Strategic Guide',
+            excerpt: 'A step-by-step guide to integrating AI into your business strategy.',
             description:
-                'Jira works well for Agile development projects for many reasons, including the ability to create Kanban and Scrum boards with sprint planning and issue time estimation capabilities.',
+                'Integrating AI can seem daunting. This guide breaks down the process into manageable steps, from identifying opportunities and choosing the right technologies to managing implementation and measuring ROI.',
         },
         {
             id: 3,
             thumbnail: '/assets/images/blog-3.png',
-            title: 'SEO Marketing',
-            excerpt: 'What is SEO (Search Engine Optimization)?',
+            title: 'AI Ethics: Navigating the Challenges',
+            excerpt: 'Understanding the ethical implications of AI and how to build responsible AI systems.',
             description:
-                'Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.',
+                "As AI becomes more powerful, it's crucial to consider the ethical implications. We explore key challenges like bias, privacy, and accountability, and provide a framework for developing AI that is fair, transparent, and beneficial for society.",
         },
     ],
     type = 'service',

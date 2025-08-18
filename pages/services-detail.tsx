@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Faq from '../components/Faq';
 import Testimonial from '../components/Testimonial';
 import BlogSlider from '../components/BlogSlider';
@@ -12,17 +13,16 @@ const Servicesdetail = () => {
     return (
         <div>
             <Head>
-                <title>Service Detail | Arclite Technologies</title>
+                <title>AI Integration Services | Arclite Technologies</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
                     <div className="container">
                         <div className="relative items-center py-14 lg:flex lg:py-[100px]">
                             <div className="relative z-[1] text-center text-white lg:w-3/5 ltr:lg:text-left rtl:lg:text-right xl:w-3/5">
-                                <h2 className="text-4xl font-black sm:text-5xl sm:leading-[126px] xl:text-[100px]">UI/UX Design</h2>
+                                <h2 className="text-4xl font-black sm:text-5xl sm:leading-[126px] xl:text-[100px]">AI Integration</h2>
                                 <p className="my-8 text-xl leading-[40px] text-[#7780A1]">
-                                    The AppStoneLab team handles the full cycle of mobile app and website design services. We produce only top-notch
-                                    applications and websites with great design UX, UI, navigation, and functionality.
+                                    Arclite Technologies specializes in seamlessly integrating AI solutions into your existing business workflows. We help organizations adopt artificial intelligence to enhance productivity, automate processes, and drive innovation.
                                 </p>
                                 <Link href="/about-us" className="btn mt-2 capitalize text-white">
                                     Book a free consultation
@@ -33,7 +33,7 @@ const Servicesdetail = () => {
                                 data-aos={isRtl ? 'fade-right' : 'fade-left'}
                                 data-aos-duration="1000"
                             >
-                                <img src="/assets/images/services-detail-phone.png" alt="services-detail-phone" className="mx-auto h-full" />
+                                <Image src="/assets/images/services-detail-phone.png" alt="services-detail-phone" width={400} height={600} className="mx-auto h-full" />
                             </div>
                         </div>
                     </div>
@@ -43,11 +43,10 @@ const Servicesdetail = () => {
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center lg:w-7/12 ltr:lg:text-left rtl:lg:text-right">
-                        <h6>Design Process</h6>
-                        <h4>Keep your users at the center of your design process with our UXD practices</h4>
+                        <h6>AI Implementation Process</h6>
+                        <h4>Systematic approach to AI adoption that puts your business objectives first</h4>
                         <p className="mt-4 text-lg font-semibold">
-                            We combine our team’s depth of experience in design, our client’s intimate knowledge of the industries they serve and insights
-                            uncovered through the discoveries we make.
+                            We combine our team&apos;s deep expertise in AI technologies with your organization&apos;s unique business requirements and industry insights to deliver transformative AI solutions.
                         </p>
                     </div>
                     <div className="grid gap-10 sm:grid-cols-3 sm:gap-7 lg:grid-cols-4">
@@ -76,8 +75,8 @@ const Servicesdetail = () => {
                                     />
                                 </svg>
                             </div>
-                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Define</h4>
-                            <p className="font-semibold leading-[32px] md:text-lg">We combine our team’s depth of experience in design.</p>
+                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Assess</h4>
+                            <p className="font-semibold leading-[32px] md:text-lg">We analyze your current processes and identify AI integration opportunities.</p>
                         </div>
                         <div>
                             <div className="h-[100px]" data-aos="fade-up" data-aos-duration="1000">
@@ -112,7 +111,7 @@ const Servicesdetail = () => {
                                 </svg>
                             </div>
                             <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Design</h4>
-                            <p className="font-semibold leading-[32px] md:text-lg">Curabitur a libero nec dolor ultricies suscipit.</p>
+                            <p className="font-semibold leading-[32px] md:text-lg">We design a custom-tailored solution to your business needs.</p>
                         </div>
                         <div>
                             <div className="h-[100px]" data-aos="fade-up" data-aos-duration="1000">
@@ -170,8 +169,8 @@ const Servicesdetail = () => {
                                     </defs>
                                 </svg>
                             </div>
-                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Build</h4>
-                            <p className="font-semibold leading-[32px] md:text-lg">Donec iaculis massa id venenatis ultrices.</p>
+                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Implement</h4>
+                            <p className="font-semibold leading-[32px] md:text-lg">We deploy and integrate AI solutions into your existing systems.</p>
                         </div>
                         <div>
                             <div className="h-[100px]" data-aos="fade-up" data-aos-duration="1000">
@@ -201,8 +200,8 @@ const Servicesdetail = () => {
                                     </defs>
                                 </svg>
                             </div>
-                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Test</h4>
-                            <p className="font-semibold leading-[32px] md:text-lg">Proin cursus diam eu nunc aliquet aliquam.</p>
+                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Optimize</h4>
+                            <p className="font-semibold leading-[32px] md:text-lg">We continuously monitor and improve AI performance for maximum ROI.</p>
                         </div>
                         <div>
                             <div className="h-[100px]" data-aos="fade-up" data-aos-duration="1000">
@@ -233,8 +232,8 @@ const Servicesdetail = () => {
                                     />
                                 </svg>
                             </div>
-                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Launch</h4>
-                            <p className="font-semibold leading-[32px] md:text-lg">Ut vehicula ante at turpis luctus sollicitudin.</p>
+                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Support</h4>
+                            <p className="font-semibold leading-[32px] md:text-lg">We provide ongoing training and support for your AI implementations.</p>
                         </div>
                     </div>
                 </div>
@@ -243,7 +242,7 @@ const Servicesdetail = () => {
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                        <h4>Our Design Expertise</h4>
+                        <h4>Our AI Consulting Expertise</h4>
                     </div>
                     <ul>
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
@@ -336,7 +335,7 @@ const Servicesdetail = () => {
                         >
                             <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
-                                <img src="/assets/images/cases-1.png" alt="cases-1" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
+                                <Image src="/assets/images/cases-1.png" alt="cases-1" width={400} height={355} className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
                             <div className="rounded-b-[32px] bg-white p-5 transition duration-500 group-hover:bg-secondary/5 dark:bg-gray-dark">
                                 <h4 className="text-lg font-bold text-black dark:text-white md:text-xl">Integer ornare nisi vitae risus vulputate</h4>
@@ -350,7 +349,7 @@ const Servicesdetail = () => {
                         >
                             <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
-                                <img src="/assets/images/cases-2.png" alt="cases-2" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
+                                <Image src="/assets/images/cases-2.png" alt="cases-2" width={400} height={355} className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
                             <div className="rounded-b-[32px] bg-white p-5 transition duration-500 group-hover:bg-secondary/5 dark:bg-gray-dark">
                                 <h4 className="text-lg font-bold text-black dark:text-white md:text-xl">Morbi vehicula metus a purus dapibu</h4>
@@ -364,7 +363,7 @@ const Servicesdetail = () => {
                         >
                             <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
-                                <img src="/assets/images/cases-3.png" alt="cases-3" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
+                                <Image src="/assets/images/cases-3.png" alt="cases-3" width={400} height={355} className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
                             <div className="rounded-b-[32px] bg-white p-5 transition duration-500 group-hover:bg-secondary/5 dark:bg-gray-dark">
                                 <h4 className="text-lg font-bold text-black dark:text-white md:text-xl">Pellentesque imperdiet dui eget ante egestas</h4>
@@ -378,7 +377,7 @@ const Servicesdetail = () => {
                         >
                             <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
-                                <img src="/assets/images/cases-4.png" alt="cases-4" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
+                                <Image src="/assets/images/cases-4.png" alt="cases-4" width={400} height={355} className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
                             <div className="rounded-b-[32px] bg-white p-5 transition duration-500 group-hover:bg-secondary/5 dark:bg-gray-dark">
                                 <h4 className="text-lg font-bold text-black dark:text-white md:text-xl">Mauris non lorem quis erat</h4>
@@ -392,7 +391,7 @@ const Servicesdetail = () => {
                         >
                             <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[606px]">
-                                <img src="/assets/images/cases-5.png" alt="cases-5" className="h-full w-full rounded-t-[32px] object-cover" />
+                                <Image src="/assets/images/cases-5.png" alt="cases-5" width={800} height={606} className="h-full w-full rounded-t-[32px] object-cover" />
                             </div>
                             <div className="rounded-b-[32px] bg-white p-5 transition duration-500 group-hover:bg-secondary/5 dark:bg-gray-dark">
                                 <h4 className="text-lg font-bold text-black dark:text-white md:text-xl">Pellentesque imperdiet dui eget ante egestas</h4>
@@ -411,22 +410,22 @@ const Servicesdetail = () => {
                     <div className="overflow-y-auto">
                         <div className="grid w-[768px] grid-cols-6 gap-[30px] md:w-auto">
                             <div className="rounded-[32px] border border-transparent transition duration-500 hover:border-secondary">
-                                <img src="/assets/images/Figma.png" alt="Figma" className="rounded-[32px]" />
+                                <Image src="/assets/images/Figma.png" alt="Figma" width={120} height={120} className="rounded-[32px]" />
                             </div>
                             <div className="rounded-[32px] border border-transparent transition duration-500 hover:border-secondary">
-                                <img src="/assets/images/SKetch.png" alt="SKetch" className="rounded-[32px]" />
+                                <Image src="/assets/images/SKetch.png" alt="SKetch" width={120} height={120} className="rounded-[32px]" />
                             </div>
                             <div className="rounded-[32px] border border-transparent transition duration-500 hover:border-secondary">
-                                <img src="/assets/images/Marvel.png" alt="Marvel" className="rounded-[32px]" />
+                                <Image src="/assets/images/Marvel.png" alt="Marvel" width={120} height={120} className="rounded-[32px]" />
                             </div>
                             <div className="rounded-[32px] border border-transparent transition duration-500 hover:border-secondary">
-                                <img src="/assets/images/InVision-Studio.png" alt="InVision-Studio" className="rounded-[32px]" />
+                                <Image src="/assets/images/InVision-Studio.png" alt="InVision-Studio" width={120} height={120} className="rounded-[32px]" />
                             </div>
                             <div className="rounded-[32px] border border-transparent transition duration-500 hover:border-secondary">
-                                <img src="/assets/images/Adobe-XD.png" alt="Adobe-XD" className="rounded-[32px]" />
+                                <Image src="/assets/images/Adobe-XD.png" alt="Adobe-XD" width={120} height={120} className="rounded-[32px]" />
                             </div>
                             <div className="rounded-[32px] border border-transparent transition duration-500 hover:border-secondary">
-                                <img src="/assets/images/Origami-Studio.png" alt="Origami-Studio" className="rounded-[32px]" />
+                                <Image src="/assets/images/Origami-Studio.png" alt="Origami-Studio" width={120} height={120} className="rounded-[32px]" />
                             </div>
                         </div>
                     </div>
@@ -445,9 +444,11 @@ const Servicesdetail = () => {
                         <div className="heading text-center rtl:pl-10 lg:mb-0 lg:w-1/3 ltr:lg:pr-10 ltr:lg:text-left rtl:lg:text-right">
                             <h6>Get In Touch.</h6>
                             <h4 className="sm:!leading-[50px]">Ready to Get Started?</h4>
-                            <img
+                            <Image
                                 src="/assets/images/form-img.png"
                                 alt="form-image"
+                                width={300}
+                                height={200}
                                 className="mx-auto"
                                 data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                 data-aos-duration="1000"

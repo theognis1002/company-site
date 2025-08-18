@@ -109,27 +109,22 @@ const Footer = () => {
                         </div>
                         <div>
                             <ul className="flex flex-col gap-3 font-bold">
-                                <li className="mb-3 text-lg font-extrabold text-black dark:text-white">Services</li>
+                                <li className="mb-3 text-lg font-extrabold text-black dark:text-white">AI Services</li>
                                 <li>
                                     <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                        App Development
+                                        AI Strategy
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                        Web Development
+                                        AI Integration
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                        Data Analytics
+                                        AI Automation
                                     </Link>
                                 </li>
-                                {/* <li>
-                                    <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
-                                        UI/UX Design
-                                    </Link>
-                                </li> */}
                             </ul>
                         </div>
                         <div>

@@ -200,7 +200,7 @@ const Header = (props: any) => {
                             </ul>
                         </div>
                         <ul className="flex items-center gap-5 ltr:pr-5 rtl:pl-5 ltr:lg:pl-5 ltr:lg:pr-0 rtl:lg:pr-5 rtl:lg:pl-0">
-                            <li>
+                            {/* <li>
                                 <button
                                     type="button"
                                     className="flex h-5 w-5 items-center text-white hover:text-primary rtl:text-primary"
@@ -234,7 +234,7 @@ const Header = (props: any) => {
                                         <path d="M6.3573 12.3084V1" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </button>
-                            </li>
+                            </li> */}
                             <li>
                                 <button
                                     type="button"

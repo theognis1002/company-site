@@ -840,13 +840,14 @@ const Termsandcondition = () => {
                             with all copyright laws worldwide in Your use of this Website and to prevent any unauthorized copying of the Materials.
                         </p>
                         <p className="pb-5 text-lg font-medium">
-                            By accessing this website we assume you accept these terms and conditions. Do not continue to use www.arclite-technologies.com if
-                            you do not agree to take all of the terms and conditions stated on this page.
+                            Arclite Technologies is an AI consultancy and technology agency specializing in artificial intelligence solutions, machine learning
+                            implementations, and intelligent automation services. By accessing this website we assume you accept these terms and conditions.
+                            Do not continue to use www.arclite-technologies.com if you do not agree to take all of the terms and conditions stated on this page.
                         </p>
                         <p className="text-lg font-medium">
                             The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements:
-                            “Client”, “You” and “Your” refers to you, the person log on this website and compliant to the Company's terms and conditions. “The
-                            Company”, “Ourselves”, “We”, “Our” and “Us”, refers to our Company. “Party”, “Parties”, or “Us”, refers to both the Client and
+                            &ldquo;Client&rdquo;, &ldquo;You&rdquo; and &ldquo;Your&rdquo; refers to you, the person accessing this website and our AI consultancy services, and compliant to the Company&rsquo;s terms and conditions. &ldquo;The
+                            Company&rdquo;, &ldquo;Ourselves&rdquo;, &ldquo;We&rdquo;, &ldquo;Our&rdquo; and &ldquo;Us&rdquo;, refers to Arclite Technologies, LLC. &ldquo;Services&rdquo; refers to our AI consulting, development, and implementation services. &ldquo;Party&rdquo;, &ldquo;Parties&rdquo;, or &ldquo;Us&rdquo;, refers to both the Client and
                             ourselves.
                         </p>
                     </div>
@@ -854,7 +855,7 @@ const Termsandcondition = () => {
                         <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Cookies</h4>
                         <p className="pb-5 text-lg font-medium">
                             We employ the use of cookies. By accessing www.arclite-technologies.com, you agreed to use cookies in agreement with the Arclite
-                            Technologies, LLC's Privacy Policy.
+                            Technologies, LLC&rsquo;s Privacy Policy.
                         </p>
                         <p className="text-lg font-medium">
                             Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to
@@ -863,10 +864,32 @@ const Termsandcondition = () => {
                         </p>
                     </div>
                     <div className="pb-12">
+                        <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">AI Services and Consulting</h4>
+                        <p className="pb-5 text-lg font-medium">
+                            Arclite Technologies provides artificial intelligence consulting services, including but not limited to: AI strategy development, 
+                            machine learning model design and implementation, natural language processing solutions, computer vision applications, 
+                            intelligent automation systems, and AI integration services.
+                        </p>
+                        <p className="pb-5 text-lg font-medium">
+                            All AI solutions and recommendations provided are based on current industry best practices and available data. Client acknowledges 
+                            that AI systems are probabilistic in nature and results may vary. Arclite Technologies does not guarantee specific outcomes 
+                            from AI implementations, though we commit to delivering solutions that meet agreed-upon specifications and quality standards.
+                        </p>
+                        <p className="pb-5 text-lg font-medium">
+                            Client data used in AI model training and development will be handled in accordance with our Privacy Policy and industry security 
+                            standards. Proprietary AI models, algorithms, and methodologies developed by Arclite Technologies remain our intellectual property 
+                            unless otherwise specified in a separate service agreement.
+                        </p>
+                        <p className="text-lg font-medium">
+                            Clients are responsible for ensuring compliance with applicable AI ethics guidelines, data protection regulations, and industry-specific 
+                            requirements in their use of our AI solutions. We provide guidance on responsible AI practices as part of our consulting services.
+                        </p>
+                    </div>
+                    <div className="pb-12">
                         <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">License</h4>
                         <p className="pb-5 text-lg font-medium">
                             Unless otherwise stated, Arclite Technologies, LLC and/or its licensors own the intellectual property rights for all material on
-                            www.arclite-technologies.com. All intellectual property rights are reserved. You may access this from www.arclite-technologies.com
+                            www.arclite-technologies.com, including proprietary AI methodologies, algorithms, and consulting frameworks. All intellectual property rights are reserved. You may access this from www.arclite-technologies.com
                             for your own personal use subjected to restrictions set in these terms and conditions.
                         </p>
                         <h6 className="pb-2 font-semibold text-black">You must not:</h6>
@@ -882,6 +905,12 @@ const Termsandcondition = () => {
                             </li>
                             <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
                                 Redistribute content from www.arclite-technologies.com
+                            </li>
+                            <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
+                                Use our proprietary AI methodologies or consulting frameworks without written permission
+                            </li>
+                            <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
+                                Reverse engineer any AI models or algorithms provided through our services
                             </li>
                         </ul>
                         <p className="pb-5 text-lg font-medium">This Agreement shall begin on the date hereof.</p>
@@ -918,6 +947,27 @@ const Termsandcondition = () => {
                         <p className="text-lg font-medium">
                             You hereby grant Arclite Technologies, LLC a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce
                             and edit any of your Comments in any and all forms, formats or media.
+                        </p>
+                    </div>
+                    <div className="pb-12">
+                        <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Data Handling and Confidentiality</h4>
+                        <p className="pb-5 text-lg font-medium">
+                            As an AI consultancy, we understand the critical importance of data security and confidentiality. All client data provided to 
+                            Arclite Technologies for the purpose of AI consulting, model development, or system implementation will be treated as confidential 
+                            and handled in accordance with industry-standard security practices.
+                        </p>
+                        <p className="pb-5 text-lg font-medium">
+                            We implement appropriate technical and organizational measures to protect client data against unauthorized access, alteration, 
+                            disclosure, or destruction. Client data will only be used for the specific purposes outlined in our service agreements and will 
+                            not be shared with third parties without explicit client consent, except as required by law.
+                        </p>
+                        <p className="pb-5 text-lg font-medium">
+                            Clients retain ownership of their data and may request data deletion or transfer upon termination of services, subject to any 
+                            legal retention requirements. We maintain detailed logs of data access and processing activities for audit purposes.
+                        </p>
+                        <p className="text-lg font-medium">
+                            For AI model training purposes, data may be anonymized or aggregated to protect client privacy while enabling effective 
+                            machine learning development. Specific data handling procedures will be outlined in individual service agreements.
                         </p>
                     </div>
                     <div>

@@ -314,54 +314,74 @@ const Privacypolicy = () => {
                     <div className="pb-12">
                         <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Privacy Policy</h4>
                         <p className="pb-5 text-lg font-medium">
-                            Our Chrome extension is designed with your privacy in mind. We want to be clear about our strict no-data-collection policy: this extension does not collect, store, or transmit any of your personal information or browsing data.
+                            At Arclite Technologies, we are committed to protecting your privacy and maintaining the confidentiality of your personal and business information. This Privacy Policy explains how we collect, use, and protect your information when you use our AI consulting services and website.
                         </p>
                         <p className="pb-5 text-lg font-medium">
-                            If you have any questions about this Privacy Policy, you can contact us at team@wraithscan.com
+                            If you have any questions about this Privacy Policy, you can contact us at privacy@arclitetechnologies.com
                         </p>
                         <p className="text-lg font-medium">
-                            This privacy policy applies specifically to our Chrome extension and outlines our commitment to protecting your privacy.
+                            This privacy policy applies to all services provided by Arclite Technologies, including our AI consulting, integration services, and website interactions.
                         </p>
                     </div>
                     <div className="pb-12">
-                        <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">No Data Collection</h4>
+                        <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Information We Collect</h4>
                         <p className="pb-5 text-lg font-medium">
-                            Our extension operates entirely on your local machine and does not:
+                            We collect information to provide you with the best AI consulting services and improve our offerings:
                         </p>
                         <ul className="text-lg font-medium pb-5">
                             <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
-                                Collect any personal information
+                                Contact information (name, email, phone number, company details)
                             </li>
                             <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
-                                Track your browsing history
+                                Business requirements and AI integration needs
                             </li>
                             <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
-                                Store any user data
+                                Project specifications and technical requirements
                             </li>
                             <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
-                                Transmit any information to external servers
+                                Website usage data for improving user experience
                             </li>
                         </ul>
                         <p className="text-lg font-medium">
-                            The extension functions entirely within your browser, and we have specifically designed it to respect your privacy.
+                            All information is collected with your explicit consent and is used solely to provide and improve our AI consulting services.
                         </p>
                     </div>
                     <div className="pb-12">
-                        <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Required Permissions</h4>
+                        <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">How We Use Your Information</h4>
                         <p className="pb-5 text-lg font-medium">
-                            Any permissions requested by the extension are solely for its core functionality. These permissions are used only to perform the extension&apos;s intended features and not for collecting or transmitting data.
+                            We use the information we collect for the following purposes:
+                        </p>
+                        <ul className="text-lg font-medium pb-5">
+                            <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
+                                Providing AI consulting and integration services
+                            </li>
+                            <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
+                                Communicating about projects and service updates
+                            </li>
+                            <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
+                                Developing custom AI solutions tailored to your needs
+                            </li>
+                            <li className="relative before:absolute before:top-3 before:h-1.5 before:w-1.5 before:rounded-full before:bg-gray ltr:pl-4 ltr:before:left-0 rtl:pr-4 rtl:before:right-0">
+                                Improving our services and developing new AI capabilities
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="pb-12">
+                        <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Data Security & Protection</h4>
+                        <p className="pb-5 text-lg font-medium">
+                            We implement industry-standard security measures to protect your information, including encryption, secure servers, and access controls. Your business data and AI implementation details are treated with the highest level of confidentiality.
                         </p>
                     </div>
                     <div className="pb-12">
                         <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Updates</h4>
                         <p className="text-lg font-medium">
-                            We may update this Privacy Policy from time to time. Any changes will be reflected in the Chrome Web Store listing, and significant changes will be communicated through the extension&apos;s update notes.
+                            We may update this Privacy Policy from time to time to reflect changes in our services or legal requirements. Any significant changes will be communicated to you via email or through prominent notices on our website.
                         </p>
                     </div>
                     <div>
                         <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Contact</h4>
                         <p className="text-lg font-medium">
-                            If you have any questions about this Privacy Policy or our practices, please contact us at team@wraithscan.com.
+                            If you have any questions about this Privacy Policy or our AI consulting practices, please contact us at privacy@arclitetechnologies.com or info@arclitetechnologies.com.
                         </p>
                     </div>
                 </div>

@@ -802,13 +802,13 @@ const Career = () => {
                                     Application Development
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'data' ? 'active' : ''}`}>
+                            <li className={`filter ${activeTab === 'automation' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('data')}
+                                    onClick={() => setActiveTab('automation')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    Data Analytics
+                                    AI Automation
                                 </button>
                             </li>
                         </ul>

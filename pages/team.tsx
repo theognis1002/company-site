@@ -359,10 +359,7 @@ const Team = () => {
                             <h4>We thrive to help our clients have global impact</h4>
                         </div>
                         <p className="pb-10 text-lg font-semibold leading-[30px]">
-                            Arclite Technologies is a leading software application development company that is dedicated to providing cutting-edge solutions to
-                            our clients. Our team is composed of highly skilled professionals who are passionate about developing innovative products that solve
-                            complex business challenges. If you are looking for a rewarding career in software development with a company that values
-                            innovation, creativity, and excellence, then Arclite Technologies is the place for you.
+                            Arclite Technologies is a leading AI consultancy that helps organizations harness the power of artificial intelligence. Our team of AI strategists, data scientists, and integration experts are passionate about helping businesses transform through intelligent automation and AI-powered solutions. If you are looking for a rewarding career in AI consulting with a company that values innovation, expertise, and client success, then Arclite Technologies is the place for you.
                         </p>
                         <Link href="/career" className="btn capitalize text-white">
                             Join Our Team

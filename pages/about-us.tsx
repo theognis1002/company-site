@@ -636,9 +636,7 @@ const Aboutus = () => {
                             <h4>We thrive to help our clients have global impact</h4>
                         </div>
                         <p className="pb-10 text-lg font-semibold leading-[30px]">
-                            Arclite Technologies is a leading software application development company that is dedicated to providing cutting-edge solutions to
-                            our clients. Our team is composed of highly skilled professionals who are passionate about developing innovative products that solve
-                            complex business challenges.
+                            Arclite Technologies is a leading AI consulting company providing cutting-edge solutions. Our expert team leverages AI to solve complex business challenges and drive digital transformation.
                         </p>
                         <Link href="/career" className="btn capitalize text-white">
                             Join Our Team
