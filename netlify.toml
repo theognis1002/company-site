@@ -9,9 +9,6 @@
   NODE_VERSION = "20"
   NETLIFY_USE_JAMMY = "true"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
 # Next.js configuration
 [context.production]
   command = "npm run build"
