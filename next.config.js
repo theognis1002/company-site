@@ -5,6 +5,15 @@ const nextConfig = {
     eslint: {
         ignoreDuringBuilds: true,
     },
+    // Netlify deployment optimizations
+    output: 'export',
+    distDir: 'out',
+    trailingSlash: true,
+    images: {
+        unoptimized: true,
+    },
+    // Handle asset prefix for static export
+    assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
 };
 
 module.exports = nextConfig;
