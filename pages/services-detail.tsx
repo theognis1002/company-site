@@ -24,7 +24,7 @@ const Servicesdetail = () => {
                                 <p className="my-8 text-xl leading-[40px] text-[#7780A1]">
                                     Arclite Technologies specializes in seamlessly integrating AI solutions into your existing business workflows. We help organizations adopt artificial intelligence to enhance productivity, automate processes, and drive innovation.
                                 </p>
-                                <Link href="/about-us" className="btn mt-2 capitalize text-white">
+                                <Link href="/about" className="btn mt-2 capitalize text-white">
                                     Book a free consultation
                                 </Link>
                             </div>

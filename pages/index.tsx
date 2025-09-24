@@ -31,7 +31,7 @@ const Index = (props: any) => {
                                 <p className="my-8 text-lg lg:w-[90%] ">
                                     From AI strategy to custom AI integration solutions, we&apos;re dedicated to helping businesses harness the power of artificial intelligence.
                                 </p>
-                                <Link href="/about-us" className="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">
+                                <Link href="/about" className="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">
                                     read more
                                 </Link>
                             </div>

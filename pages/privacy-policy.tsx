@@ -381,7 +381,7 @@ const Privacypolicy = () => {
                     <div>
                         <h4 className="pb-5 text-xl font-bold text-black dark:text-white sm:text-2xl">Contact</h4>
                         <p className="text-lg font-medium">
-                            If you have any questions about this Privacy Policy or our AI consulting practices, please contact us at privacy@arclitetechnologies.com or info@arclitetechnologies.com.
+                            If you have any questions about this Privacy Policy or our AI consulting practices, please contact us at info@arclite-technologies.com.
                         </p>
                     </div>
                 </div>

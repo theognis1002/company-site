@@ -77,7 +77,7 @@ You can start editing the pages by modifying files in the `pages/` directory. Th
 
 - `/services` - Overview of AI consulting services
 - `/services-detail` - Detailed service descriptions
-- `/about-us` - Company information and team
+- `/about` - Company information and team
 - `/contact-us` - Contact forms and office locations
 - `/portfolio` - Case studies and client success stories
 

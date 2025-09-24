@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import Head from 'next/head';
 // import OfficeSwiper from '../components/OfficeSwiper';
 // import Lightbox from 'react-18-image-lightbox';
@@ -398,9 +399,11 @@ const Career = () => {
                                 </Link>
                             </div>
                         </div>
-                        <img
+                        <Image
                             src="/assets/images/creative-agency.png"
                             alt="creative-agency"
+                            width={500}
+                            height={400}
                             className="order-1 mx-auto rounded-[32px] md:order-2 md:mx-0"
                             data-aos={isRtl ? 'fade-right' : 'fade-left'}
                             data-aos-duration="1000"
@@ -920,7 +923,7 @@ const Career = () => {
                     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-1.png" alt="team-member-1" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/team-member-1.png" alt="team-member-1" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Aditya Patel
@@ -929,7 +932,7 @@ const Career = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-2.png" alt="team-member-2" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/team-member-2.png" alt="team-member-2" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Audrey Ramirez
@@ -938,7 +941,7 @@ const Career = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-3.png" alt="team-member-3" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/team-member-3.png" alt="team-member-3" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 James Robinson
@@ -947,7 +950,7 @@ const Career = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-4.png" alt="team-member-4" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/team-member-4.png" alt="team-member-4" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Daniel Allen
@@ -956,7 +959,7 @@ const Career = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-1.png" alt="team-member-1" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/team-member-1.png" alt="team-member-1" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Aditya Patel
@@ -965,7 +968,7 @@ const Career = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-2.png" alt="team-member-2" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/team-member-2.png" alt="team-member-2" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Audrey Ramirez
@@ -974,7 +977,7 @@ const Career = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-3.png" alt="team-member-3" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/team-member-3.png" alt="team-member-3" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 James Robinson
@@ -983,7 +986,7 @@ const Career = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-4.png" alt="team-member-4" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/team-member-4.png" alt="team-member-4" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Daniel Allen

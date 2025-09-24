@@ -3,6 +3,7 @@ import OfficeSwiper from '../components/OfficeSwiper';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Link from 'next/link';
+import Image from 'next/image';
 import Head from 'next/head';
 
 const Contactus = () => {
@@ -982,7 +983,7 @@ const Contactus = () => {
                             <h5 className="font-bold text-black dark:text-white lg:text-lg">Ontario, Canada</h5>
                         </div>
                     </div>
-                    <img src="/assets/images/canada-branch.png" alt="canada-branch" className="w-full" />
+                    <Image src="/assets/images/canada-branch.png" alt="canada-branch" width={600} height={400} className="w-full" />
                 </div>
             </section>
 
@@ -1066,7 +1067,7 @@ const Contactus = () => {
                             <h5 className="font-bold text-black dark:text-white lg:text-lg">Coolumburra, Australia</h5>
                         </div>
                     </div>
-                    <img src="/assets/images/canada-branch.png" alt="canada-branch" className="w-full" />
+                    <Image src="/assets/images/canada-branch.png" alt="canada-branch" width={600} height={400} className="w-full" />
                 </div>
             </section> */}
 
@@ -1489,7 +1490,7 @@ const Contactus = () => {
                             <Link href="/" className="btn w-full bg-secondary text-base capitalize text-white hover:bg-gray/10 hover:text-gray sm:text-lg">
                                 Get Started
                             </Link>
-                            <Link href="/about-us" className="btn w-full bg-gray/10 text-base capitalize text-gray sm:text-lg">
+                            <Link href="/about" className="btn w-full bg-gray/10 text-base capitalize text-gray sm:text-lg">
                                 Learn More
                             </Link>
                         </div>

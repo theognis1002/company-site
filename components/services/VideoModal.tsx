@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { useSelector } from 'react-redux';
+import Image from 'next/image';
 import Modal from '../Modal';
 import { IRootState } from '../../store';
 
@@ -11,14 +12,18 @@ const VideoModal = () => {
         <>
             <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 lg:pb-[100px] lg:pt-[130px]">
                 <div className="relative bg-center">
-                    <img
+                    <Image
                         src="/assets/images/how-we-do-it_.png"
                         alt="how-we-do-it"
+                        width={400}
+                        height={100}
                         className="absolute inset-x-0 bottom-[93%] mx-auto hidden md:block xl:bottom-[91%]"
                     />
-                    <img
+                    <Image
                         src="/assets/images/service-video-bg.png"
                         alt="service-video-bg"
+                        width={1200}
+                        height={738}
                         className="relative z-[1] h-[400px] w-full object-cover object-top sm:h-[500px] lg:h-[738px]"
                     />
                     <div className="absolute -inset-x-4 bottom-0 h-12 -rotate-[2deg] bg-[#7780A1]/10 xl:bottom-3"></div>

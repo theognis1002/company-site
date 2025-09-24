@@ -3,6 +3,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation, Autoplay } from 'swiper/modules';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 
@@ -80,9 +81,11 @@ const OfficeSwiper = () => {
                         >
                             <SwiperSlide>
                                 <div className="mt-10 rounded-[32px] bg-white dark:bg-gray-dark md:grid md:grid-cols-2 lg:mt-0">
-                                    <img
+                                    <Image
                                         src="/assets/images/ofc.png"
                                         alt="ofc"
+                                        width={400}
+                                        height={300}
                                         className="h-full w-full rounded-r-[32px] rounded-l-[32px] object-cover md:rounded-r-none"
                                     />
                                     <div className="py-10 px-5 sm:px-8">
@@ -150,9 +153,11 @@ const OfficeSwiper = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="mt-10 rounded-[32px] bg-white dark:bg-gray-dark md:grid md:grid-cols-2 lg:mt-0">
-                                    <img
+                                    <Image
                                         src="/assets/images/ofc.png"
                                         alt="ofc"
+                                        width={400}
+                                        height={300}
                                         className="h-full w-full rounded-r-[32px] rounded-l-[32px] object-cover md:rounded-r-none"
                                     />
                                     <div className="py-10 px-5 sm:px-8">

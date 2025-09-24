@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import BlogSlider from '../components/BlogSlider';
@@ -146,7 +147,7 @@ const ModernSaas = () => {
                                 data-aos={isRtl ? 'fade-right' : 'fade-left'}
                                 data-aos-duration="1000"
                             >
-                                <img src="/assets/images/modern-saas/banner-img.png" alt="" />
+                                <Image src="/assets/images/modern-saas/banner-img.png" alt="" width={630} height={400} />
                             </div>
                         </div>
                     </div>
@@ -328,11 +329,11 @@ const ModernSaas = () => {
 
                 <section className="bg-gradient-to-t from-white/[55%] to-transparent py-8 px-5 dark:bg-white/[0.03] dark:bg-none lg:py-20">
                     <div className="relative mx-auto max-w-[1440px] rounded-[32px] bg-black pt-14">
-                        <img src="/assets/images/modern-saas/perfomance-design.svg" alt="" className="absolute bottom-0 ltr:right-0 rtl:left-0" />
-                        <img src="/assets/images/modern-saas/dollers-icon.svg" alt="" className="absolute top-0 ltr:right-14 rtl:left-14" />
+                        <Image src="/assets/images/modern-saas/perfomance-design.svg" alt="" width={400} height={300} className="absolute bottom-0 ltr:right-0 rtl:left-0" />
+                        <Image src="/assets/images/modern-saas/dollers-icon.svg" alt="" width={100} height={100} className="absolute top-0 ltr:right-14 rtl:left-14" />
                         <div className="container">
                             <div className="relative">
-                                <img src="/assets/images/modern-saas/perfomance-doller-icon.svg" alt="" className="absolute bottom-0 ltr:left-0 rtl:right-0" />
+                                <Image src="/assets/images/modern-saas/perfomance-doller-icon.svg" alt="" width={150} height={150} className="absolute bottom-0 ltr:left-0 rtl:right-0" />
                                 <div className="grid gap-4 lg:grid-cols-2">
                                     <div className="pt-28 lg:pb-10 lg:pt-0">
                                         <div className="heading mb-12 ltr:lg:text-left rtl:lg:text-right">
@@ -390,7 +391,7 @@ const ModernSaas = () => {
                                         </ul>
                                     </div>
                                     <div className="pb-20 lg:pt-20 lg:pb-8" data-aos="fade-up" data-aos-duration="1000">
-                                        <img src="/assets/images/modern-saas/perfomance-img.png" alt="" className="w-full" />
+                                        <Image src="/assets/images/modern-saas/perfomance-img.png" alt="" width={600} height={400} className="w-full" />
                                     </div>
                                 </div>
                             </div>
@@ -413,7 +414,7 @@ const ModernSaas = () => {
                                 <ul className="mt-14 space-y-14 lg:w-2/3">
                                     <li className="flex gap-5 sm:gap-8">
                                         <div className="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-primary p-2 sm:h-[72px] sm:w-[72px]">
-                                            <img src="/assets/images/modern-saas/tracking-icon.svg" alt="" />
+                                            <Image src="/assets/images/modern-saas/tracking-icon.svg" alt="" width={40} height={40} />
                                         </div>
                                         <div className="flex-1">
                                             <h4 className="text-[22px] font-extrabold text-black dark:text-white">Advanced tracking</h4>
@@ -424,7 +425,7 @@ const ModernSaas = () => {
                                     </li>
                                     <li className="flex gap-5 sm:gap-8">
                                         <div className="flex h-12 w-12 flex-none items-center justify-center rounded-2xl bg-secondary p-2 sm:h-[72px] sm:w-[72px]">
-                                            <img src="assets/images/modern-saas/monitoring-icon.svg" alt="" />
+                                            <Image src="/assets/images/modern-saas/monitoring-icon.svg" alt="" width={40} height={40} />
                                         </div>
                                         <div className="flex-1">
                                             <h4 className="text-[22px] font-extrabold text-black dark:text-white">In-depth monitoring</h4>
@@ -433,9 +434,11 @@ const ModernSaas = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <img
+                            <Image
                                 src="/assets/images/modern-saas/benifits-img.png"
                                 alt=""
+                                width={600}
+                                height={500}
                                 className="top-0 mx-auto mt-10 h-full ltr:-right-[125px] rtl:-left-[125px] lg:absolute lg:mt-0"
                             />
                         </div>
@@ -445,14 +448,18 @@ const ModernSaas = () => {
                 <section className="py-14 lg:py-20">
                     <div className="container">
                         <div className="relative grid items-center gap-y-10 lg:grid-cols-2 lg:gap-4">
-                            <img
+                            <Image
                                 src="/assets/images/modern-saas/analysis-icon.svg"
                                 alt=""
+                                width={288}
+                                height={200}
                                 className="absolute top-0 block w-32 ltr:right-0 rtl:left-0 dark:hidden sm:w-72 lg:-top-16 lg:ltr:right-36 lg:rtl:left-36"
                             />
-                            <img
+                            <Image
                                 src="/assets/images/modern-saas/analysis-icon-dark.svg"
                                 alt=""
+                                width={288}
+                                height={200}
                                 className="absolute top-0 hidden w-32 ltr:right-0 rtl:left-0 dark:block sm:w-72 lg:-top-16 lg:ltr:right-36 lg:rtl:left-36"
                             />
                             <div
@@ -460,7 +467,7 @@ const ModernSaas = () => {
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                <img src="/assets/images/modern-saas/integration-img.png" alt="" />
+                                <Image src="/assets/images/modern-saas/integration-img.png" alt="integration" width={400} height={300} />
                             </div>
                             <div className="heading mb-5 text-center ltr:lg:text-right rtl:lg:text-left">
                                 <h6 className="!text-secondary">INTEGRATIONS</h6>
@@ -518,7 +525,7 @@ const ModernSaas = () => {
                                 </Link>
                             </div>
                             <div className="lg:ltr:pl-24 lg:rtl:pr-24">
-                                <img src="/assets/images/modern-saas/optimization.png" alt="" className="rounded-2xl" />
+                                <Image src="/assets/images/modern-saas/optimization.png" alt="optimization" width={500} height={350} className="rounded-2xl" />
                             </div>
                         </div>
                         <div
@@ -547,7 +554,7 @@ const ModernSaas = () => {
                                 </Link>
                             </div>
                             <div className="lg:ltr:pl-24 lg:rtl:pr-24">
-                                <img src="/assets/images/modern-saas/migrate-modernize.png" alt="" className="rounded-2xl" />
+                                <Image src="/assets/images/modern-saas/migrate-modernize.png" alt="migrate modernize" width={500} height={350} className="rounded-2xl" />
                             </div>
                         </div>
                     </div>
@@ -562,7 +569,7 @@ const ModernSaas = () => {
                         <div className="grid gap-14 sm:grid-cols-2 lg:grid-cols-3">
                             <div data-aos="fade-up" data-aos-duration="1000">
                                 <div className="mb-10">
-                                    <img src="/assets/images/modern-saas/modern-design.svg" alt="" className="mx-auto w-24" />
+                                    <Image src="/assets/images/modern-saas/modern-design.svg" alt="modern design" width={96} height={96} className="mx-auto w-24" />
                                 </div>
                                 <h4 className="text-[22px] font-extrabold text-black dark:text-white">Modern Design</h4>
                                 <p className="mt-6 mb-8 text-lg font-semibold line-clamp-4">
@@ -575,7 +582,7 @@ const ModernSaas = () => {
                             </div>
                             <div data-aos="fade-up" data-aos-duration="1000">
                                 <div className="mb-10">
-                                    <img src="/assets/images/modern-saas/magic-pagebuilder.svg" alt="" className="mx-auto w-24" />
+                                    <Image src="/assets/images/modern-saas/magic-pagebuilder.svg" alt="magic pagebuilder" width={96} height={96} className="mx-auto w-24" />
                                 </div>
                                 <h4 className="text-[22px] font-extrabold text-black dark:text-white">Magic Pagebuilder</h4>
                                 <p className="mt-6 mb-8 text-lg font-semibold line-clamp-4">
@@ -588,7 +595,7 @@ const ModernSaas = () => {
                             </div>
                             <div data-aos="fade-up" data-aos-duration="1000">
                                 <div className="mb-10">
-                                    <img src="/assets/images/modern-saas/support-icon.svg" alt="" className="mx-auto w-24" />
+                                    <Image src="/assets/images/modern-saas/support-icon.svg" alt="support icon" width={96} height={96} className="mx-auto w-24" />
                                 </div>
                                 <h4 className="text-[22px] font-extrabold text-black dark:text-white">Support 24/7</h4>
                                 <p className="mt-6 mb-8 text-lg font-semibold line-clamp-4">
@@ -622,15 +629,15 @@ const ModernSaas = () => {
                 ></BlogSlider>
 
                 <section className="relative bg-black py-14 lg:py-24">
-                    <img src="/assets/images/modern-saas/newsletter.svg" alt="" className="absolute right-0 bottom-0 hidden xl:inline-block" />
-                    <img src="/assets/images/modern-saas/email.svg" alt="" className="absolute left-40 bottom-0 hidden md:left-1/2 xl:inline-block" />
+                    <Image src="/assets/images/modern-saas/newsletter.svg" alt="newsletter" width={200} height={150} className="absolute right-0 bottom-0 hidden xl:inline-block" />
+                    <Image src="/assets/images/modern-saas/email.svg" alt="email" width={100} height={100} className="absolute left-40 bottom-0 hidden md:left-1/2 xl:inline-block" />
                     <div className="container">
                         <div className="flex flex-col justify-between gap-5 md:flex-row">
                             <div className="relative text-center md:w-1/2 ltr:md:text-left rtl:md:text-right xl:pr-12">
-                                <img src="/assets/images/modern-saas/icon-1.svg" alt="" className="absolute -left-12 -top-12" />
+                                <Image src="/assets/images/modern-saas/icon-1.svg" alt="icon-1" width={80} height={80} className="absolute -left-12 -top-12" />
                                 <h2 className="relative mb-3 text-3xl font-black text-white md:text-4xl xl:text-6xl">
                                     Email Newsletter
-                                    <img src="/assets/images/modern-saas/icon-2.svg" alt="" className="absolute right-8 -bottom-5" />
+                                    <Image src="/assets/images/modern-saas/icon-2.svg" alt="icon-2" width={80} height={80} className="absolute right-8 -bottom-5" />
                                 </h2>
                                 <p className="text-2xl font-semibold">get updates & more</p>
                                 <form className="relative mt-14">
@@ -664,7 +671,7 @@ const ModernSaas = () => {
                                 </form>
                             </div>
                             <div data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
-                                <img src="/assets/images/modern-saas/oc-target.svg" alt="" className="mx-auto w-52 rtl:rotate-y-180 lg:w-80" />
+                                <Image src="/assets/images/modern-saas/oc-target.svg" alt="target" width={320} height={240} className="mx-auto w-52 rtl:rotate-y-180 lg:w-80" />
                             </div>
                         </div>
                     </div>

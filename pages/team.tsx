@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Head from 'next/head';
 import Testimonial from '../components/Testimonial';
 import { useSelector } from 'react-redux';
@@ -366,7 +367,7 @@ const Team = () => {
                         </Link>
                     </div>
                 </div>
-                <img src="/assets/images/about-who-bg.png" alt="about-who-bg" className="-bottom-5 ltr:right-0 rtl:left-0 rtl:rotate-y-180 lg:absolute" />
+                <Image src="/assets/images/about-who-bg.png" alt="about-who-bg" width={400} height={300} className="-bottom-5 ltr:right-0 rtl:left-0 rtl:rotate-y-180 lg:absolute" />
             </section>
 
             {/* <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:from-white/5 lg:py-[100px]">
@@ -377,7 +378,7 @@ const Team = () => {
                     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/leader-1.png" alt="leader-1" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/leader-1.png" alt="leader-1" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Aditya Patel
@@ -386,7 +387,7 @@ const Team = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/leader-2.png" alt="leader-2" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/leader-2.png" alt="leader-2" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Audrey Ramirez
@@ -395,7 +396,7 @@ const Team = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/leader-3.png" alt="leader-3" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/leader-3.png" alt="leader-3" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 James Robinson
@@ -404,7 +405,7 @@ const Team = () => {
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/leader-4.png" alt="leader-4" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <Image src="/assets/images/leader-4.png" alt="leader-4" width={280} height={280} className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Daniel Allen

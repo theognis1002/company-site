@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
+import Image from 'next/image';
 import { IRootState } from '../../store';
 import { toggleTheme, toggleDirection } from '../../store/themeConfigSlice';
 import { useRouter } from 'next/router';
@@ -30,7 +31,7 @@ const Header = (props: any) => {
             <div className="container">
                 <div className="flex items-center justify-between py-5 lg:py-0">
                     <Link href="/">
-                        <img src="/assets/images/logo.png" alt="plurk" className="h-10 w-full" />
+                        <Image src="/assets/images/logo.png" alt="plurk" width={200} height={40} className="h-10 w-full" />
                     </Link>
                     <div className="flex items-center">
                         <div onClick={() => toggleMenu()} className={`overlay fixed inset-0 z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
@@ -149,16 +150,16 @@ const Header = (props: any) => {
                                         Team
                                     </Link>
                                 </li> */}
-                                {/* <li>
-                                    <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
-                                        About Us
-                                    </Link>
-                                </li> */}
                                 <li>
+                                    <Link href="/about" className={router.pathname === '/about' ? 'active' : ''}>
+                                        About
+                                    </Link>
+                                </li>
+                                {/* <li>
                                     <Link href="/career" className={router.pathname === '/career' ? 'active' : ''}>
                                         Career
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex">
                                     <button type="button" onClick={() => toggleSearch()} className="text-white hover:text-primary">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

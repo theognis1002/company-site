@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux';
+import Image from 'next/image';
 import { IRootState } from '../store';
 import Head from 'next/head';
 
@@ -19,7 +20,7 @@ const Blogdetail = () => {
                                 <h4 className="!text-white">Understanding Model Context Protocol: The Future of AI Integration</h4>
                                 <ul className="items-center justify-center pt-6 sm:flex lg:justify-start">
                                     <li className="flex items-center justify-center">
-                                        <img src="/assets/images/sophia-avtar.png" alt="avtar" />
+                                        <Image src="/assets/images/sophia-avtar.png" alt="avtar" width={60} height={60} />
                                         <span className="px-4 font-semibold sm:text-lg">Michael McClelland</span>
                                     </li>
                                     <li className="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
@@ -35,9 +36,11 @@ const Blogdetail = () => {
                                 data-aos={isRtl ? 'fade-right' : 'fade-left'}
                                 data-aos-duration="1000"
                             >
-                                <img
+                                <Image
                                     src="/assets/images/blog-detail-hero.png"
                                     alt="blog-detail-hero"
+                                    width={445}
+                                    height={400}
                                     className="mx-auto h-80 rounded-[32px] object-cover sm:h-[400px] sm:w-[445px]"
                                 />
                             </div>
@@ -82,16 +85,20 @@ const Blogdetail = () => {
 
                         <div className="not-prose grid gap-[30px] pb-12 sm:grid-cols-2 lg:grid-cols-3">
                             <div className="group h-[400px] overflow-hidden rounded-[32px] lg:col-span-2" data-aos="fade-up" data-aos-duration="1000">
-                                <img
+                                <Image
                                     src="/assets/images/blog-detail-1.png"
                                     alt="blog-detail-1"
+                                    width={800}
+                                    height={400}
                                     className="h-full w-full rounded-[32px] object-cover transition duration-500 group-hover:scale-110"
                                 />
                             </div>
                             <div className="group h-[400px] overflow-hidden rounded-[32px]" data-aos="fade-up" data-aos-duration="1000">
-                                <img
-                                    src="assets/images/blog-detail-2.png"
+                                <Image
+                                    src="/assets/images/blog-detail-2.png"
                                     alt="blog-detail-2"
+                                    width={400}
+                                    height={400}
                                     className="h-full w-full rounded-[32px] object-cover transition duration-500 group-hover:scale-110"
                                 />
                             </div>
@@ -117,16 +124,20 @@ const Blogdetail = () => {
 
                         <div className="not-prose grid gap-[30px] pb-12 sm:grid-cols-2">
                             <div className="group h-[324px] overflow-hidden rounded-[20px]" data-aos="fade-up" data-aos-duration="1000">
-                                <img
+                                <Image
                                     src="/assets/images/blog-detail-3.png"
                                     alt="blog-detail-3"
+                                    width={400}
+                                    height={324}
                                     className="h-full w-full rounded-[20px] object-cover transition duration-500 group-hover:scale-110"
                                 />
                             </div>
                             <div className="group h-[324px] overflow-hidden rounded-[20px]" data-aos="fade-up" data-aos-duration="1000">
-                                <img
+                                <Image
                                     src="/assets/images/blog-detail-4.png"
                                     alt="blog-detail-4"
+                                    width={400}
+                                    height={324}
                                     className="h-full w-full rounded-[20px] object-cover transition duration-500 group-hover:scale-110"
                                 />
                             </div>

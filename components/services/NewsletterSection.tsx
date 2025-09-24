@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux';
+import Image from 'next/image';
 import { IRootState } from '../../store';
 
 const NewsletterSection = () => {
@@ -8,7 +9,7 @@ const NewsletterSection = () => {
         <section className="relative overflow-x-hidden border-t-2 border-transparent px-4 py-14 dark:border-gray/20 lg:py-[100px]">
             <div className="items-center justify-center gap-10 lg:flex">
                 <div className="text-center" data-aos={isRtl ? 'fade-left' : 'fade-right'} data-aos-duration="1000">
-                    <img src="/assets/images/services-form-txt.png" alt="services-form-txt" className="mx-auto mb-10 sm:pt-4 xl:mx-0" />
+                    <Image src="/assets/images/services-form-txt.png" alt="services-form-txt" width={400} height={100} className="mx-auto mb-10 sm:pt-4 xl:mx-0" />
                     <form action="" className="relative z-[1] text-center lg:pt-[50px]">
                         <div className="relative inline-block w-full sm:w-auto">
                             <input

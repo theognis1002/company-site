@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 
@@ -8,7 +9,7 @@ const Counter = (props: any) => {
         <section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 py-12 dark:border-gray/20 dark:bg-none">
             <div className="items-center justify-center lg:flex">
                 <div className="text-center" data-aos={isRtl ? 'fade-left' : 'fade-right'} data-aos-duration="1000">
-                    <img src="/assets/images/contact-text.png" alt="contact-text" className="mx-auto sm:pt-4 xl:mx-0" />
+                    <Image src="/assets/images/contact-text.png" alt="contact-text" width={400} height={200} className="mx-auto sm:pt-4 xl:mx-0" />
                 </div>
                 <div data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
                     <svg

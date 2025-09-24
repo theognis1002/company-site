@@ -3,6 +3,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation, Autoplay } from 'swiper/modules';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 
@@ -113,7 +114,7 @@ const ProjectSlider = (props: any) => {
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
                                 <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
-                                <img src="/assets/images/project-2.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
+                                <Image src="/assets/images/project-2.png" alt="Project" width={400} height={208} className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Crypto Game - UX Interface</h6>
                                     <p>Website, App</p>
@@ -123,7 +124,7 @@ const ProjectSlider = (props: any) => {
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
                                 <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
-                                <img src="/assets/images/project-3.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
+                                <Image src="/assets/images/project-3.png" alt="Project" width={400} height={208} className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Looking for a quiet place</h6>
                                     <p>Website</p>
@@ -133,7 +134,7 @@ const ProjectSlider = (props: any) => {
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
                                 <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
-                                <img src="/assets/images/project-4.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
+                                <Image src="/assets/images/project-4.png" alt="Project" width={400} height={208} className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">WeTour - Travel Hero Illustration</h6>
                                     <p>Website</p>
@@ -143,7 +144,7 @@ const ProjectSlider = (props: any) => {
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
                                 <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
-                                <img src="/assets/images/project-5.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
+                                <Image src="/assets/images/project-5.png" alt="Project" width={400} height={208} className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Digital Art Guide</h6>
                                     <p>Branding</p>
@@ -153,7 +154,7 @@ const ProjectSlider = (props: any) => {
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
                                 <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
-                                <img src="/assets/images/project-6.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
+                                <Image src="/assets/images/project-6.png" alt="Project" width={400} height={208} className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Frozeverse - 3D and motion design</h6>
                                     <p>Branding, Website, App</p>

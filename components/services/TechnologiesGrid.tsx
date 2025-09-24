@@ -1,109 +1,102 @@
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import Image from 'next/image';
+
+interface Technology {
+    id: number;
+    name: string;
+    imagePath: string;
+    hoverColor: string;
+    margin?: string; // Optional margin override
+}
 
 const TechnologiesGrid = () => {
-    const technologies = [
+    const technologies: Technology[] = [
         {
             id: 1,
             name: 'OpenAI',
-            hoverColor: '#412991',
-            icon: <i className="fab fa-openai text-7xl transition duration-500 group-hover:text-white"></i>,
+            imagePath: '/assets/images/technologies/openai.png',
+            hoverColor: '#FFFFFF',
         },
         {
             id: 2,
             name: 'Google Gemini',
+            imagePath: '/assets/images/technologies/gemini.png',
             hoverColor: '#4285F4',
-            icon: (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 transition duration-500 group-hover:text-white" viewBox="0 0 512 188">
-                    <path
-                        fill="currentColor"
-                        d="M125.939 126.64q0 26.094-15.482 41.575q-17.395 18.438-45.748 18.438q-27.135 0-45.923-18.786Q0 149.08 0 121.597q0-27.485 18.786-46.27Q37.573 56.54 64.71 56.54q13.741 0 25.918 4.87t20.004 13.742l-11.48 11.48q-5.74-6.957-14.873-10.871t-19.57-3.914q-20.351 0-34.441 14.09q-13.916 14.264-13.916 35.66t13.916 35.659q14.09 14.09 34.442 14.09q18.613 0 30.963-10.437t14.263-28.702H64.71v-14.96h60.36q.87 4.872.87 9.394"
-                    />
-                    <path
-                        fill="currentColor"
-                        d="M176.17 96.205q19.152 0 30.485 12.387q11.334 12.388 11.334 34.703l-.176 1.757h-67.648q.352 12.651 8.434 20.382q8.083 7.73 19.328 7.73q15.462 0 24.248-15.461l14.408 7.028q-5.799 10.894-16.077 17.044t-23.282 6.15q-18.976 0-31.276-13.003t-12.299-32.857q0-19.68 11.948-32.77t30.573-13.09m-.351 14.76q-9.137 0-15.726 5.622q-6.59 5.623-8.698 15.11h49.374q-.702-8.96-7.292-14.846t-17.658-5.887"
-                    />
-                    <path
-                        fill="currentColor"
-                        d="M244.493 184.843h-16.116V99.008h15.416v11.912h.7q3.68-6.306 11.299-10.51q7.62-4.206 15.153-4.205q9.459 0 16.641 4.38q7.182 4.379 10.51 12.086q10.687-16.466 29.605-16.466q14.89 0 22.948 9.11q8.058 9.108 8.058 25.925v53.603h-16.116v-51.15q0-12.088-4.38-17.43q-4.379-5.343-14.714-5.343q-9.285 0-15.59 7.883q-6.307 7.882-6.307 18.568v47.472h-16.116v-51.15q0-12.088-4.38-17.43q-4.379-5.343-14.714-5.343q-9.285 0-15.59 7.883q-6.307 7.882-6.307 18.568z"
-                    />
-                    <path fill="currentColor" d="M393.263 69.216q0 4.737-3.334 8.07q-3.334 3.335-8.071 3.335t-8.071-3.334t-3.334-8.071q0-4.738 3.334-8.071q3.334-3.334 8.07-3.334q4.74 0 8.072 3.334q3.334 3.334 3.334 8.07m-3.334 29.652v85.975h-16.142V98.868z" />
-                    <path
-                        fill="currentColor"
-                        d="M512 69.216q0 4.737-3.334 8.07q-3.334 3.335-8.07 3.335q-4.74 0-8.072-3.334q-3.333-3.334-3.334-8.071q0-4.738 3.334-8.071q3.334-3.334 8.071-3.334t8.071 3.334t3.334 8.07m-3.334 29.652v85.975h-16.142V98.868z"
-                    />
-                    <path
-                        fill="currentColor"
-                        d="M404.004 99.008h15.415v11.912h.7q3.68-6.306 11.3-10.51q7.62-4.206 15.853-4.205q15.765 0 24.261 9.022q8.496 9.02 8.496 25.663v53.953h-16.116v-52.902q-.526-21.021-21.196-21.021q-9.634 0-16.116 7.795t-6.481 18.656v47.472h-16.116z"
-                    />
-                    <path fill="currentColor" d="M348.374 72.76c-2.846-18.788-17.592-33.533-36.38-36.38c18.788-2.847 33.534-17.593 36.38-36.38c2.847 18.787 17.593 33.533 36.38 36.38c-18.787 2.847-33.533 17.592-36.38 36.38" />
-                </svg>
-            ),
+            margin: '0 0 0 0',
         },
         {
             id: 3,
             name: 'Anthropic Claude',
-            hoverColor: '#CC7A00',
-            icon: (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 transition duration-500 group-hover:text-white" viewBox="0 0 24 24">
-                    <path
-                        fill="currentColor"
-                        d="M16.765 5h-3.308l5.923 15h3.23zM7.226 5L1.38 20h3.308l1.307-3.154h6.154l1.23 3.077h3.309L10.688 5zm-.308 9.077l2-5.308l2.077 5.308z"
-                    />
-                </svg>
-            ),
+            imagePath: '/assets/images/technologies/anthropic.png',
+            hoverColor: '#D97757',
         },
         {
             id: 4,
-            name: 'Perplexity',
-            hoverColor: '#20B2AA',
-            icon: (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 transition duration-500 group-hover:text-white" viewBox="0 0 24 24">
-                    <path
-                        fill="currentColor"
-                        d="m5.735 2l5.695 5.247V2.012h1.109v5.259L18.259 2v5.983h2.349v8.629h-2.342v5.327l-5.727-5.032v5.09h-1.11V16.99L5.742 22v-5.388H3.393v-8.63h2.342zm4.86 7.078H4.5v6.439h1.24v-2.031zM6.85 13.972v5.585l4.58-4.034V9.81zm5.72 1.497l4.588 4.03v-2.887h-.006v-2.646l-4.582-4.16zm5.696.048H19.5v-6.44h-6.047l4.814 4.363zm-1.115-7.534V4.519l-3.76 3.464zm-6.548 0l-3.76-3.464v3.464z"
-                    />
-                </svg>
-            ),
+            name: 'Hugging Face',
+            imagePath: '/assets/images/technologies/huggingface.svg',
+            hoverColor: '#CCCCCC',
         },
         {
             id: 5,
-            name: 'React',
-            hoverColor: '#01D8FF',
-            icon: (
-                <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 60 60"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-20 w-20 transition duration-500 group-hover:text-white"
-                >
-                    <path
-                        d="M60 29.7224C60 25.7477 55.0224 21.9808 47.391 19.6449C49.1521 11.8667 48.3693 5.67835 44.9205 3.69711C44.1256 3.23237 43.1961 3.01223 42.181 3.01223V5.7395C42.7436 5.7395 43.1961 5.84957 43.5752 6.05748C45.2385 7.01141 45.9601 10.6437 45.3975 15.3155C45.2629 16.4651 45.0428 17.6759 44.7737 18.9111C42.3767 18.3241 39.7595 17.8716 37.0077 17.5781C35.3567 15.3155 33.6445 13.2609 31.9201 11.4631C35.9071 7.75744 39.6494 5.72727 42.1932 5.72727V3C38.83 3 34.4272 5.39707 29.9755 9.55524C25.5238 5.42153 21.1211 3.04892 17.7578 3.04892V5.77619C20.2894 5.77619 24.044 7.79413 28.031 11.4753C26.3188 13.2731 24.6066 15.3155 22.98 17.5781C20.2161 17.8716 17.5989 18.3241 15.2018 18.9234C14.9205 17.7004 14.7126 16.5141 14.5658 15.3767C13.991 10.7049 14.7004 7.07256 16.3514 6.1064C16.7183 5.88626 17.1953 5.78842 17.7578 5.78842V3.06115C16.7305 3.06115 15.8011 3.28129 14.9939 3.74603C11.5573 5.72727 10.7868 11.9034 12.5601 19.6572C4.95312 22.0053 0 25.7599 0 29.7224C0 33.6971 4.97758 37.4639 12.609 39.7998C10.8479 47.5781 11.6307 53.7664 15.0795 55.7477C15.8744 56.2124 16.8039 56.4325 17.8312 56.4325C21.1945 56.4325 25.5972 54.0355 30.0489 49.8773C34.5006 54.011 38.9034 56.3836 42.2666 56.3836C43.2939 56.3836 44.2234 56.1635 45.0306 55.6987C48.4672 53.7175 49.2377 47.5414 47.4643 39.7876C55.0469 37.4517 60 33.6849 60 29.7224ZM44.0766 21.565C43.6241 23.1427 43.0616 24.7693 42.4256 26.3958C41.9242 25.4174 41.3983 24.4391 40.8235 23.4607C40.2609 22.4823 39.6616 21.5283 39.0624 20.5989C40.799 20.8557 42.4745 21.1737 44.0766 21.565ZM38.4753 34.5899C37.5214 36.2409 36.543 37.8064 35.5279 39.2617C33.7057 39.4207 31.8589 39.5063 30 39.5063C28.1533 39.5063 26.3066 39.4207 24.4965 39.2739C23.4815 37.8186 22.4908 36.2654 21.5369 34.6266C20.6074 33.0245 19.7636 31.3979 18.9931 29.7591C19.7513 28.1203 20.6074 26.4814 21.5247 24.8793C22.4786 23.2283 23.457 21.6629 24.4721 20.2075C26.2943 20.0485 28.1411 19.9629 30 19.9629C31.8467 19.9629 33.6934 20.0485 35.5035 20.1953C36.5186 21.6506 37.5092 23.2038 38.4631 24.8426C39.3926 26.4448 40.2364 28.0713 41.0069 29.7101C40.2364 31.349 39.3926 32.9878 38.4753 34.5899ZM42.4256 33C43.086 34.6388 43.6486 36.2776 44.1133 37.8675C42.5112 38.2589 40.8235 38.5891 39.0746 38.8459C39.6739 37.9042 40.2731 36.938 40.8357 35.9474C41.3983 34.969 41.9242 33.9784 42.4256 33ZM30.0245 46.0493C28.8871 44.8753 27.7497 43.5667 26.6245 42.1357C27.7252 42.1847 28.8504 42.2214 29.9878 42.2214C31.1374 42.2214 32.2748 42.1969 33.3877 42.1357C32.287 43.5667 31.1496 44.8753 30.0245 46.0493ZM20.9254 38.8459C19.1887 38.5891 17.5132 38.2711 15.9111 37.8797C16.3636 36.3021 16.9262 34.6755 17.5622 33.0489C18.0636 34.0273 18.5895 35.0057 19.1643 35.9841C19.7391 36.9625 20.3261 37.9164 20.9254 38.8459ZM29.9633 13.3954C31.1007 14.5695 32.2381 15.8781 33.3632 17.309C32.2625 17.2601 31.1374 17.2234 30 17.2234C28.8504 17.2234 27.713 17.2479 26.6001 17.309C27.7008 15.8781 28.8382 14.5695 29.9633 13.3954ZM20.9132 20.5989C20.3139 21.5406 19.7146 22.5067 19.1521 23.4973C18.5895 24.4757 18.0636 25.4541 17.5622 26.4325C16.9018 24.7937 16.3392 23.1549 15.8744 21.565C17.4766 21.1859 19.1643 20.8557 20.9132 20.5989ZM9.84509 35.9107C5.5157 34.064 2.71504 31.6425 2.71504 29.7224C2.71504 27.8023 5.5157 25.3685 9.84509 23.534C10.8969 23.0815 12.0465 22.6779 13.2328 22.2988C13.9299 24.6959 14.8471 27.1908 15.9845 29.7468C14.8594 32.2907 13.9543 34.7733 13.2695 37.1582C12.0587 36.779 10.9091 36.3632 9.84509 35.9107ZM16.4248 53.3873C14.7615 52.4333 14.04 48.8011 14.6025 44.1292C14.7371 42.9796 14.9572 41.7689 15.2263 40.5336C17.6233 41.1207 20.2405 41.5732 22.9923 41.8667C24.6433 44.1292 26.3555 46.1839 28.0799 47.9817C24.0929 51.6873 20.3506 53.7175 17.8068 53.7175C17.2564 53.7053 16.7917 53.5952 16.4248 53.3873ZM45.4342 44.0681C46.009 48.7399 45.2996 52.3722 43.6486 53.3384C43.2817 53.5585 42.8047 53.6563 42.2421 53.6563C39.7106 53.6563 35.956 51.6384 31.969 47.9572C33.6812 46.1594 35.3934 44.117 37.02 41.8545C39.7839 41.5609 42.4011 41.1084 44.7982 40.5092C45.0795 41.7444 45.2996 42.9307 45.4342 44.0681ZM50.1427 35.9107C49.0909 36.3632 47.9413 36.7668 46.755 37.1459C46.0579 34.7489 45.1406 32.254 44.0033 29.6979C45.1284 27.1541 46.0334 24.6714 46.7183 22.2866C47.9291 22.6657 49.0787 23.0815 50.1549 23.534C54.4843 25.3808 57.285 27.8023 57.285 29.7224C57.2727 31.6425 54.4721 34.0762 50.1427 35.9107Z"
-                        fill="currentColor"
-                    />
-                    <path
-                        d="M29.9878 35.311C33.0745 35.311 35.5768 32.8086 35.5768 29.7219C35.5768 26.6351 33.0745 24.1328 29.9878 24.1328C26.901 24.1328 24.3987 26.6351 24.3987 29.7219C24.3987 32.8086 26.901 35.311 29.9878 35.311Z"
-                        fill="currentColor"
-                    />
-                </svg>
-            ),
+            name: 'Llamaindex',
+            imagePath: '/assets/images/technologies/llamaindex.png',
+            hoverColor: '#000000',
         },
         {
             id: 6,
-            name: 'Python/Django',
-            hoverColor: '#092E20',
-            icon: (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 transition duration-500 group-hover:text-white" viewBox="0 0 24 24">
-                    <path
-                        fill="currentColor"
-                        fillRule="evenodd"
-                        d="M15.172 0h-4.176v5.932a7.2 7.2 0 0 0-1.816-.2C4.816 5.731 2 8.305 2 12.273c0 4.118 2.655 6.263 7.755 6.268c1.703 0 3.278-.15 5.417-.53zM9.734 8.977c.516 0 .92.05 1.408.2v6.248c-.596.075-.972.1-1.434.1c-2.14 0-3.305-1.142-3.305-3.21c0-2.125 1.22-3.338 3.331-3.338"
-                        clipRule="evenodd"
-                    />
-                    <path fill="currentColor" d="M22 15.233V6.215h-4.17v7.675c0 3.387-.188 4.674-.785 5.786c-.57 1.087-1.462 1.8-3.305 2.606L17.615 24c1.843-.862 2.735-1.643 3.412-2.88c.726-1.288.973-2.782.973-5.887M21.585 0h-4.176v3.993h4.176z" />
-                </svg>
-            ),
+            name: 'LangChain',
+            imagePath: '/assets/images/technologies/langchain.png',
+            hoverColor: '#CCCCCC',
+            margin: '0 0 0 0',
+        },
+        {
+            id: 7,
+            name: 'CrewAI',
+            imagePath: '/assets/images/technologies/crewai.png',
+            hoverColor: '#461916',
+            margin: '0 0 0 0',
+        },
+        {
+            id: 8,
+            name: 'JavaScript',
+            imagePath: '/assets/images/technologies/javascript.png',
+            hoverColor: '#F7E016',
+        },
+        {
+            id: 9,
+            name: 'Python',
+            imagePath: '/assets/images/technologies/python.png',
+            hoverColor: '#4285F4',
+        },
+        {
+            id: 10,
+            name: 'Go',
+            imagePath: '/assets/images/technologies/golang.png',
+            hoverColor: '#00A7D2',
+        },
+        {
+            id: 11,
+            name: 'AWS',
+            imagePath: '/assets/images/technologies/aws.png',
+            hoverColor: '#FF9900',
+            margin: '0 0 0 0',
+        },
+        {
+            id: 12,
+            name: 'Google Cloud',
+            imagePath: '/assets/images/technologies/google-cloud.png',
+            hoverColor: '#4285F4',
+        },
+        {
+            id: 13,
+            name: 'Azure',
+            imagePath: '/assets/images/technologies/azure.png',
+            hoverColor: '#0078D4',
+        },
+        {
+            id: 14,
+            name: 'Kubernetes',
+            imagePath: '/assets/images/technologies/kubernetes.png',
+            hoverColor: '#326CE5',
         },
     ];
 
@@ -114,95 +107,41 @@ const TechnologiesGrid = () => {
                     <h4>What Technologies Do We Use?</h4>
                 </div>
                 {/* First Row - AI Technologies */}
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 md:grid-cols-4 lg:grid-cols-6 mb-8">
+                <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                     {technologies.map((tech) => (
-                        <div key={tech.id} data-aos="fade-up" data-aos-duration="1000">
+                        <div key={tech.id} data-aos="fade-up" data-aos-duration="1000" className="relative group">
                             <div
-                                className="group flex items-center justify-center rounded-[32px] bg-gray/10 py-[50px] px-[50px] transition duration-500 hover:scale-105 hover:drop-shadow-[0_5px_13px_rgba(60,72,88,0.20)]"
+                                className="flex items-center justify-center rounded-[32px] bg-gray/10 p-8 transition duration-500 hover:scale-105 hover:drop-shadow-[0_5px_13px_rgba(60,72,88,0.20)] relative overflow-hidden"
                                 style={{
-                                    // '--hover-bg': tech.hoverColor,
+                                    backgroundColor: 'transparent',
+                                    margin: tech.margin,
                                 }}
                                 onMouseEnter={(e) => {
                                     e.currentTarget.style.backgroundColor = tech.hoverColor;
                                 }}
                                 onMouseLeave={(e) => {
-                                    e.currentTarget.style.backgroundColor = '';
+                                    e.currentTarget.style.backgroundColor = 'transparent';
                                 }}
                             >
-                                {tech.icon}
+                                <div className="relative w-20 h-20">
+                                    <Image
+                                        src={tech.imagePath}
+                                        alt={tech.name}
+                                        fill
+                                        priority={false}
+                                        className="object-contain transition-all duration-300 filter grayscale group-hover:grayscale-0"
+                                        sizes="(max-width: 768px) 100px, 100px"
+                                    />
+                                </div>
+                                {/* Tooltip */}
+                                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 whitespace-nowrap">
+                                    {tech.name}
+                                    {/* Tooltip arrow */}
+                                    <div className="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                                </div>
                             </div>
                         </div>
                     ))}
-                </div>
-
-                {/* Second Row - Web Technologies */}
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 md:grid-cols-4 lg:grid-cols-6">
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <div className="group flex items-center justify-center rounded-[32px] bg-gray/10 py-[50px] px-[50px] transition duration-500 hover:scale-105 hover:bg-[#3FB984] hover:drop-shadow-[0_5px_13px_rgba(60,72,88,0.20)]">
-                            <svg
-                                width="60"
-                                height="60"
-                                viewBox="0 0 60 60"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-[60px] w-[60px] transition duration-500 group-hover:hidden"
-                            >
-                                <path
-                                    opacity="0.3"
-                                    d="M35.939 7.71484L30.0001 18.0006L24.0611 7.71484H4.28577L30.0001 52.254L55.7143 7.71484H35.939Z"
-                                    fill="#7780A1"
-                                />
-                                <path
-                                    d="M35.9391 7.71484L30.0001 18.0006L24.0611 7.71484H14.5715L30.0001 34.4371L45.4287 7.71484H35.9391Z"
-                                    fill="#7780A1"
-                                />
-                            </svg>
-                            <svg
-                                width="60"
-                                height="60"
-                                viewBox="0 0 60 60"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="hidden h-[60px] w-[60px] transition duration-500 group-hover:block"
-                            >
-                                <path d="M35.939 7.71484L30 18.0006L24.061 7.71484H4.28571L30 52.254L55.7143 7.71484H35.939Z" fill="white" />
-                                <path d="M35.939 7.71484L30 18.0006L24.061 7.71484H14.5714L30 34.4371L45.4286 7.71484H35.939Z" fill="#31475E" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <div className="group flex items-center justify-center rounded-[32px] bg-gray/10 py-[50px] px-[50px] transition duration-500 hover:scale-105 hover:bg-[#DF2E31] hover:drop-shadow-[0_5px_13px_rgba(60,72,88,0.20)]">
-                            <svg
-                                width="60"
-                                height="60"
-                                viewBox="0 0 60 60"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-[60px] w-[60px] transition duration-500 group-hover:hidden"
-                            >
-                                <path d="M2 9.94476L29.9114 0L58.5745 9.76794L53.9335 46.6961L29.9114 60L6.26521 46.8729L2 9.94476Z" fill="currentColor" />
-                                <path
-                                    d="M29.9555 7.00586L12.5635 45.702L19.0606 45.5915L22.5524 36.8621H38.1545L41.9778 45.702L48.1876 45.8125L29.9555 7.00586ZM29.9999 19.4037L35.8782 31.6908H24.8284L29.9999 19.4037Z"
-                                    fill="white"
-                                />
-                            </svg>
-                            <svg
-                                width="60"
-                                height="60"
-                                viewBox="0 0 60 60"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="hidden h-[60px] w-[60px] transition duration-500 group-hover:block"
-                            >
-                                <path d="M2 9.94476L29.9114 0L58.5745 9.76794L53.9335 46.6961L29.9114 60L6.26521 46.8729L2 9.94476Z" fill="white" />
-                                <path
-                                    d="M29.9555 7.00586L12.5635 45.702L19.0606 45.5915L22.5524 36.8621H38.1545L41.9778 45.702L48.1876 45.8125L29.9555 7.00586ZM29.9999 19.4037L35.8782 31.6908H24.8284L29.9999 19.4037Z"
-                                    fill="#DF2E31"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>

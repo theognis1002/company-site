@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import ProjectSlider from '../components/ProjectSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
@@ -262,34 +263,42 @@ const Portfoliodetail = (props: any) => {
                         </p>
                     </div>
                     <div className="grid gap-[30px] sm:grid-cols-2">
-                        <img
+                        <Image
                             src="/assets/images/portfolio-img-1.png"
                             alt="portfolio-img-1"
+                            width={500}
+                            height={300}
                             className="rounded-[32px]"
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         />
-                        <img
+                        <Image
                             src="/assets/images/portfolio-img-2.png"
                             alt="portfolio-img-2"
+                            width={500}
+                            height={300}
                             className="rounded-[32px]"
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         />
                     </div>
                     <div className="py-[30px] sm:py-[50px]">
-                        <img
+                        <Image
                             src="/assets/images/portfolio-img-3.png"
                             alt="portfolio-img-3"
+                            width={1000}
+                            height={400}
                             className="rounded-[32px]"
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         />
                     </div>
                     <div>
-                        <img
+                        <Image
                             src="/assets/images/portfolio-img-4.png"
                             alt="portfolio-img-4"
+                            width={1000}
+                            height={400}
                             className="rounded-[32px]"
                             data-aos="fade-up"
                             data-aos-duration="1000"
