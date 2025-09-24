@@ -8,9 +8,14 @@ function App({ children }: PropsWithChildren) {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(toggleTheme(themeConfig.theme));
-        dispatch(toggleDirection(themeConfig.direction));
-    }, [dispatch, themeConfig.direction, themeConfig.theme]);
+        // Initialize theme and direction from localStorage on client side only once
+        if (typeof window !== 'undefined') {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            const savedDirection = localStorage.getItem('direction') || 'ltr';
+            dispatch(toggleTheme(savedTheme));
+            dispatch(toggleDirection(savedDirection));
+        }
+    }, [dispatch]);
 
     return <div className="App">{children}</div>;
 }

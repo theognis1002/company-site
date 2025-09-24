@@ -7,7 +7,6 @@ const nextConfig = {
     },
     // Netlify deployment optimizations
     output: 'export',
-    distDir: 'out',
     trailingSlash: true,
     images: {
         unoptimized: true,

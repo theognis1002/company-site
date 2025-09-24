@@ -2,7 +2,7 @@ import Head from 'next/head';
 import ProjectSlider from '../components/ProjectSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
-import Contactus from '../components/ContactUs';
+import Counter from '../components/ContactUs';
 
 const Portfoliodetail = (props: any) => {
     const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
@@ -300,7 +300,7 @@ const Portfoliodetail = (props: any) => {
 
             <ProjectSlider title2="Related Projects" />
 
-            <Contactus />
+            <Counter />
         </div>
     );
 };
